@@ -39,14 +39,16 @@
 variables styles 
 ***************************/
 @import 'modules/_var';
+@import '_settings/_setting';
+@import '_settings/_fonts';
 
 
 // math functions are not included in sass
-@import "drop-shadow-converter/mathfunctions";
+@import 'drop-shadow-converter/mathfunctions';
 // import converter
-@import "drop-shadow-converter/drop-shadow-converter";
+@import 'drop-shadow-converter/drop-shadow-converter';
 // template sass helper functions
-@import "_helper-function.scss";
+@import '_helper-function.scss';
 
 
 /************************** 
@@ -206,12 +208,9 @@ variables styles
 @import 'modules/_ceo-message';
 
 /************************** 
-* 27. variables styles 
-***************************/
-// @import 'modules/_var';
 
 /************************** 
-* 28. sidebar styles 
+* 27. sidebar styles 
 ***************************/
 
 @import 'modules/_sidebar';

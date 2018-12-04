@@ -14,7 +14,7 @@ footer.site-footer {
 		h3, p, ul {margin: 0;padding: 0;list-style: none;}
 		.title {
 			margin-bottom: 25px;
-			h3 {font-size: 18px;color: #262626;font-weight: 600;font-family: 'Poppins';}
+			h3 {font-size: 18px;color: #262626;font-weight: 600;font-family: 'Poppins', sans-serif;}
 		}
 		p {font-size: 15px;color: #888888;line-height: 25px;}
 		ul.links-list {
@@ -29,12 +29,12 @@ footer.site-footer {
 		&.about-widget {
 			position: relative;
 			bottom: 50px;
-			h3 {font-size: 18px;font-weight: 600;font-family: 'Poppins';margin-top: 45px;margin-bottom: 20px;}
+			h3 {font-size: 18px;font-weight: 600;font-family: 'Poppins', sans-serif;margin-top: 45px;margin-bottom: 20px;}
 		}
 		&.subscribe-widget {
 			// padding: 35px 40px;
 			// background:#f6f6f6;
-			h3 {font-size: 18px;font-weight: 600;color: #2b78e4;font-family: 'Poppins';line-height: 1em;margin-bottom: 15px;}
+			h3 {font-size: 18px;font-weight: 600;color: #2b78e4;font-family: 'Poppins', sans-serif;line-height: 1em;margin-bottom: 15px;}
 			p {font-size: 15px;line-height: 22px;font-weight: 400;color: #888888;}
 			form.subscribe-form {
 				position: relative;
@@ -72,15 +72,41 @@ footer.site-footer {
 	span {
 		display: inline-block;
 		vertical-align: middle;
-		width: 25px;
-		height: 25px;
+		margin-right: 10px;
 	}
 }
 .footer-widget h3 {
     color: $blue;
     font-weight: 600;
     font-size: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 	margin-bottom: 10px !important;
 }
+.footer-contacts .icon-box i {
+    font-size: 35px;
+    color: $blue;
+    line-height: 1em;
+    vertical-align: text-top;
+}
+.i-home {
+	font-size: 35px;
+    color: $blue;
+}
+footer.site-footer .footer-widget p > a {
+	font-size: 15px;
+    color: #888888;
+    line-height: 25px;
+}
 
+.bottom-footer__list {
+	text-align: center;
+}
+.bottom-footer__item {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+}
+.bottom-footer__link {
+	font-size: 15px;
+	color: #888888;
+}
