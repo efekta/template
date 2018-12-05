@@ -1,0 +1,5 @@
+@media only screen and (max-width: 767px) {
+  .contact-info-style-one .title h3:after {
+    display: none; }
+  .single-contact-infos .or {
+    display: none; } }

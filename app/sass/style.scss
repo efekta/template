@@ -40,7 +40,7 @@ variables styles
 ***************************/
 @import 'modules/_var';
 @import '_settings/_setting';
-@import '_settings/_fonts';
+// @import '_settings/_fonts';
 
 
 // math functions are not included in sass
@@ -214,3 +214,7 @@ variables styles
 ***************************/
 
 @import 'modules/_sidebar';
+/************************** 
+28. shift-box styles
+***************************/
+@import 'modules/_contacts-page';

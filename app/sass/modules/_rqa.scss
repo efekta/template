@@ -2,7 +2,7 @@
 	background:#262626;
 	padding: 45px 30px;
 	h3, p {margin: 0;}
-	h3 {font-size: 28px;color: $blue;font-weight: 600;font-family: 'Poppins';
+	h3 {font-size: 28px;color: $blue;font-weight: 600;font-family: 'Poppins', sans-serif;
 		&:after {
             display: inline-block;
             vertical-align: middle;
@@ -22,7 +22,7 @@
 		}
 		input + input {margin-top: 8px;}
 		textarea {height: 121px;margin-top: 8px;margin-bottom: 25px;padding-top: 10px;}
-		button {display: inline-block;width: 172px;height: 44px;border: none;outline: none;background:$blue;color: #FFFFFF;font-size: 16px;font-family: 'Poppins';font-weight: 600;line-height: 44px;
+		button {display: inline-block;width: 172px;height: 44px;border: none;outline: none;background:$blue;color: #FFFFFF;font-size: 16px;font-family: 'Poppins', sans-serif;font-weight: 600;line-height: 44px;
 			i {margin-left: 4px;}
 			&:before {background:#fff;}
 			&:hover {color: #252525;}

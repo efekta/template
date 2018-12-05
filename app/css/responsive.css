@@ -172,3 +172,33 @@
 @media (max-height: 700px) {
     .coming-soon-block {height: 1000px;}
 }
+@media only screen and (max-width: 767px) {
+    .contact-info-style-one .title h3:after {
+        display: none;
+    }
+    .contact-info-style-one .contact-infos .single-contact-infos.or {
+        display: none;
+    }
+    .contact-info-style-one .title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer-widget h3 {
+        margin: 20px 0 !important;
+    }
+    .bottom-footer__item {
+        text-align: left;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .sec-title p {
+        width: 100%;
+    }
+    .contact-page-content .sec-title.text-center h3 {
+        font-size: 28px;
+    }
+    .contact-page-content .sec-title.text-center span {
+        font-size: 28px;
+        display: block;
+    }
+}

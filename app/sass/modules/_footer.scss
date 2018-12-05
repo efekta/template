@@ -58,6 +58,10 @@ footer.site-footer {
 		p {margin: 0;color: #555555;font-size: 15px;}
 	}
 }
+.logo-footer {
+	display: block;
+	margin-bottom: 20px;
+}
 .footer-contacts {
 	img {
 		max-width: 100%;
@@ -82,12 +86,6 @@ footer.site-footer {
     font-family: 'Poppins', sans-serif;
 	margin-bottom: 10px !important;
 }
-.footer-contacts .icon-box i {
-    font-size: 35px;
-    color: $blue;
-    line-height: 1em;
-    vertical-align: text-top;
-}
 .i-home {
 	font-size: 35px;
     color: $blue;
@@ -100,13 +98,32 @@ footer.site-footer .footer-widget p > a {
 
 .bottom-footer__list {
 	text-align: center;
+	margin-bottom: 15px;
 }
 .bottom-footer__item {
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 0;
+	color: $blue;
 }
 .bottom-footer__link {
 	font-size: 15px;
 	color: #888888;
+	&:hover {
+		color: $blue;
+	}
+}
+
+.copy  {
+	padding: 20px 0;
+	border-top: 2px solid $blue;
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+}
+.copy_up {
+	text-transform: uppercase;
+}
+
+.hidden-sidebar .copy {
+    color: #ffffff;
 }

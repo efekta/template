@@ -1,0 +1,31 @@
+.inner-banner {
+	position: relative;
+	padding: 120px 0;
+}
+
+
+.contact-page-content {
+	background: #fff;
+    margin: -100px auto 0;
+    padding: 50px 0;
+    position: relative;
+    .sec-title h3 {
+    	margin: 35px 0;
+    }
+}
+.company-contacts {
+// display: flex;
+// justify-content: center;
+// align-items: center;
+// margin: auto;
+// padding: 20px;
+}
+.company-contacts p {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.about_map_contacts {
+	width: 100%;
+	height: 600px;
+}

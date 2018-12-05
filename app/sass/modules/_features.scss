@@ -35,7 +35,7 @@
 		.text-box {
 			padding-left: 20px;
 			h3, p {margin: 0;}
-			h3 {font-size: 24px;font-family: 'Poppins';font-weight: 600;color: #262626;}
+			h3 {font-size: 24px;font-family: 'Poppins', sans-serif;font-weight: 600;color: #262626;}
 			p {font-size: 16px;line-height: 24px;color: #555555;margin-top: 15px;}
 		}
 		&.light {
@@ -62,7 +62,7 @@
 	}
 	i {font-size: 53px;color: #262626;transition: all .4s ease;}
 	h3, p {margin: 0;transition: all .4s ease;}
-	h3 {font-size: 22px;line-height: 27px;color: #252525;font-family: 'Poppins';font-weight: 600;letter-spacing: -0.025em;margin-top: 18px;margin-bottom: 10px;}
+	h3 {font-size: 22px;line-height: 27px;color: #252525;font-family: 'Poppins', sans-serif;font-weight: 600;letter-spacing: -0.025em;margin-top: 18px;margin-bottom: 10px;}
 	p {font-size: 15px;line-height: 27px;color: #545454;width: 73%;margin-left: auto;margin-right: auto;}
 	&:before {background:#FD5912;}
 	&:hover {

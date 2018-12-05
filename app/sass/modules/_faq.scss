@@ -25,7 +25,7 @@
                     font-size: 18px;
                     color: #262626;
                     font-weight: 600;
-                    font-family: 'Poppins';
+                    font-family: 'Poppins', sans-serif;
                     &:before {
                         content: "\f063";
                         font-family: 'Font Awesome 5 Free';
@@ -68,7 +68,7 @@
             }
         }
     }
-    a.more-info {color: #2b78e4;font-size: 16px;font-weight: 600;font-family: 'Poppins';letter-spacing: .01em;display: inline-block;margin-top: 35px;transition: all .4s ease;margin-left: 0;
+    a.more-info {color: #2b78e4;font-size: 16px;font-weight: 600;font-family: 'Poppins', sans-serif;letter-spacing: .01em;display: inline-block;margin-top: 35px;transition: all .4s ease;margin-left: 0;
         &:hover {margin-left: 10px;}
     }
 }

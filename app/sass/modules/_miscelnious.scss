@@ -1,5 +1,5 @@
 body {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     color: #555555;
     font-size: 16px;
     line-height: 27px;
@@ -70,13 +70,12 @@ a:active {
 
 .sec-title {
     margin: 0 auto 35px;
-    width: 65%;
     h3 {
         margin: 0;
         color: #262626;
         font-weight: 600;
         font-size: 32px;
-        font-family: 'Poppins';
+        font-family: 'Poppins', sans-serif;
 
         &:after {
             display: inline-block;
@@ -90,8 +89,23 @@ a:active {
         }
         + p {margin-top: 21px;}
     }    
-    p {color: #555555;margin: 0;font-size: 18px;line-height: 28px;}
-    span {color: #2b78e4;}
+    p {
+        color: #555555;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 28px;
+        width: 60%;
+    }
+    span {
+        color: #2b78e4;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-style: italic;
+        background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3));
+        background: linear-gradient(to right, #0703f8 0%, #2196f3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     &.light {
         h3 {color: #fff;
             &:after {background:#fff;}
@@ -110,7 +124,7 @@ a:active {
 
 .scroll-to-top {
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 20px;
     z-index: 9999;
     width: 50px;
