@@ -1,6 +1,6 @@
 ymaps.ready(init);
  function init(){     
-    var myMap = new ymaps.Map("about_map", {
+    var myMap1 = new ymaps.Map("map_contacts", {
          center: [47.22261057425376,39.61439249999996],
          zoom: 17
      }),
@@ -22,7 +22,9 @@ ymaps.ready(init);
   });
 
 // Добавляем все метки на карту.
-myMap.geoObjects.add(myPlacemark1);
-myMap.behaviors.disable('scrollZoom');
+myMap1.geoObjects.add(myPlacemark1);
+myMap1.behaviors.disable('scrollZoom');
 
  };
+
+ 

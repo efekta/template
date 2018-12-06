@@ -147,15 +147,17 @@
                 <div class="sec-title text-center">
                     <h3>Контакты компании<span>&quot;ООО Хим - Транс - Трейд&quot;</span></h3>
                 </div>
-                 <div class="company-contacts_box">
-
-                        <div class="col-md-4 col-sm-12 col-xs-12 company-contacts">
+                <div class="company-contacts_box clearfix">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="company-contacts">
                             <span class="icon-box">
                                 <i class="fal fa-map"></i>
                             </span>
                             <p>г. Ростов-на-Дону, ул. Малиновского,<br> дом № 54Г, офис 204</p>
                         </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12 company-contacts">
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="company-contacts">
                             <span class="icon-box i-box_z">
                                 <i class="fal fa-phone-volume"></i>
                             </span><!-- /.icon-box -->
@@ -163,17 +165,19 @@
                                 <a class="head-link_contacts d-block-link d-color" href="tel:+79282295936">+7 (928) 229 59 36</a>
                                 <a class="head-link_contacts d-block-link d-color" href="tel:+79295353333">+7-(929) 535 33 33</a>
                             </p><!-- /.text-box -->
-                        </div><!-- /.contacts -->
+                        </div>
+                    </div><!-- /.contacts -->
 
-                        <div class="col-md-4 col-sm-12 col-xs-12 company-contacts">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="company-contacts">
                             <span class="icon-box">
                                 <i class="industrio-icon-envelope"></i>
                             </span><!-- /.icon-box -->
                             <p>
                                 <a class="head-link_contacts d-color" href="mailto:info@himtranstrade.ru">info@himtranstrade.ru</a>
                             </p><!-- /.text-box -->
-                        </div><!-- /.contacts -->
-
+                        </div>
+                    </div><!-- /.contacts -->
                 </div>
             </div>
         </div>
@@ -181,27 +185,56 @@
 
     <section class="contact-page sec-pad">
         <div class="container">
-            <div class="sec-title text-center">
-                <h3>Get in Touch</h3>
-                <p>You will find yourself working in a true partnership that results in an incredible <br /> experience, and an end product that is the best. </p>
-            </div><!-- /.sec-title text-center -->
             <div class="row">
                 <div class="col-md-6">
-                    <div id="about_map_contacts"></div>
+                    <div id="map_contacts"></div>
                 </div><!-- /.col-md-6 -->
                 <div class="col-md-6">
                     <form action="inc/sendemail.php" class="contact-form">
-                        <h3>Send Mail</h3>
-                        <input type="text" placeholder="Your name.." name="name" />
-                        <input type="text" placeholder="Your email address.." name="email" />
-                        <input type="text" placeholder="Your Location.." name="subject" />
-                        <textarea placeholder="Write..." name="message"></textarea>
-                        <button type="submit" class="hvr-sweep-to-right">Send</button>
+                        <h3>Напишите нам</h3>
+                        <div class="col-md-6 col-sm-12 col-xs-12 inp-wrap">
+                            <input type="text" placeholder="Ваше имя" name="name" />
+                            <input type="text" placeholder="Телефон" name="phone" />
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12 inp-wrap">
+                            <input type="text" placeholder="E-mail" name="email" />
+                            <input type="text" placeholder="Тема обращения" name="theme" />
+                        </div>
+                        <textarea placeholder="Сообщение" name="message"></textarea>
+                        
+                        <p>Ваши персональные данные не будут переданы третьим лицам</p>
+                        <div class="form-personal">
+                            <input type="checkbox" id="test1" />
+                            <label for="test1">Я даю согласие на обработку моих персональных данных</label>
+                        </div>
+                        <button type="submit" class="hvr-sweep-to-right">Отправить сообщение</button>
                     </form>
                 </div><!-- /.col-md-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.contact-page -->
+
+    <section class="contact-page sec-pad">
+        <div class="container">
+            <div class="row">
+                <div class="faq-style-one">
+                    <div class="accrodion-grp faq-accrodion" data-grp-name="faq-accrodion">
+                        <div class="accrodion">
+                            <div class="accrodion-title sec-title text-center">
+                                <h3><span>Наши реквизиты</span></h3>
+                            </div>
+                            <div class="accrodion-content" style="display: none;">
+                                <div class="inner">
+                                    
+                                </div><!-- /.inner -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="contact-info-style-one">
         <div class="container">
@@ -240,7 +273,7 @@
             </div><!-- /.row -->
         </div><!-- /.contianer -->
     </section>
-
+    
 
 </div> <!-- /.page-wrapper -->
 
@@ -492,6 +525,7 @@
 <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
 <script src="js/main-slider-script.js"></script>
+
 <script src="js/main.js"></script>
 </body>
 </html>

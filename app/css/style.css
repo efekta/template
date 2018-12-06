@@ -1170,9 +1170,9 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .faq-style-one .accrodion-grp .accrodion + .accrodion .accrodion-title { border-top: 1px solid #e1e1e1; }
 
-.faq-style-one .accrodion-grp .accrodion .accrodion-title { padding: 22px 0; cursor: pointer; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+.faq-style-one .accrodion-grp .accrodion .accrodion-title { padding: 22px 0; cursor: pointer; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; text-align: center; }
 
-.faq-style-one .accrodion-grp .accrodion .accrodion-title h4 { margin: 0; position: relative; font-size: 18px; color: #262626; font-weight: 600; font-family: 'Poppins', sans-serif; }
+.faq-style-one .accrodion-grp .accrodion .accrodion-title h4 { margin: 0; position: relative; font-size: 28px; color: #262626; font-weight: 600; font-family: 'Poppins', sans-serif; }
 
 .faq-style-one .accrodion-grp .accrodion .accrodion-title h4:before { content: "\f063"; font-family: 'Font Awesome 5 Free'; color: #999999; font-size: 10px; position: absolute; top: 50%; right: 0px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); font-weight: 900; width: 25px; height: 25px; line-height: 21px; border-radius: 50%; border: 2px solid #999999; text-align: center; }
 
@@ -1901,8 +1901,6 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .about-style-three .about-content a.about-btn:before { background: #252525; }
 
-#about_map { width: 100%; height: 300px; }
-
 /************************** 
 * 23. fact counter styles 
 ***************************/
@@ -2173,8 +2171,49 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .contact-page-content .sec-title h3 { margin: 35px 0; }
 
+.company-contacts { min-height: 150px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border: 2px solid #2b78e4; }
+
 .company-contacts p { display: inline-block; vertical-align: middle; margin-left: 10px; }
 
 .about_map_contacts { width: 100%; height: 600px; }
+
+.contact-page.sec-pad { padding-top: 0; }
+
+.contact-page form { text-align: center; }
+
+.inp-wrap { padding: 0 !important; }
+
+.contact-page form.contact-form button { width: 45%; margin-bottom: 20px; }
+
+.contact-page form .form-personal label { display: inline-block; vertical-align: middle; width: auto; margin-bottom: 0; font-weight: 400; }
+
+.form-personal { text-align: left; margin-bottom: 20px; }
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked { position: absolute; left: -9999px; }
+
+[type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label { position: relative; padding-left: 1.95em; cursor: pointer; }
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before { content: ''; position: absolute; left: 0; top: 0; width: 1.25em; height: 1.25em; border: 2px solid #ccc; background: #fff; border-radius: 4px; -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after { content: '\2713\0020'; position: absolute; top: .15em; left: 0.19em; font-size: 1.3em; line-height: 0.7; color: #2b78e4; font-weight: 700; -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after { opacity: 0; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); }
+
+[type="checkbox"]:checked + label:after { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before, [type="checkbox"]:disabled:checked + label:before { -webkit-box-shadow: none; box-shadow: none; border-color: #bbb; background-color: #ddd; }
+
+[type="checkbox"]:disabled:checked + label:after { color: #999; }
+
+[type="checkbox"]:disabled + label { color: #aaa; }
+
+/* hover style just for information */
+label:hover:before { border: 2px solid #4778d9 !important; }
+
+#map_contacts { width: 100%; height: 450px; }
 
 /*# sourceMappingURL=style.css.map */

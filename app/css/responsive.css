@@ -29,6 +29,9 @@
     .strategy-wrapper .single-strategy .img-box, .strategy-wrapper .single-strategy .text-box {display: block;width: 100%;}
     .strategy-wrapper .single-strategy .text-box {padding-top: 40px;padding-bottom: 40px;}
     .sidebar .single-sidebar.broucher-sidebar a.broucher-btn {font-size: 12px;}
+        .company-contacts {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 991px) {
