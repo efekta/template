@@ -8,8 +8,8 @@
         padding-top: 10px;
         padding-bottom: 10px;
         .accrodion {
-            padding-left: 25px;
-            padding-right: 25px;
+            // padding-left: 25px;
+            // padding-right: 25px;
             + .accrodion {
                 .accrodion-title {
                     border-top: 1px solid #e1e1e1;
@@ -73,3 +73,82 @@
         &:hover {margin-left: 10px;}
     }
 }
+.contacts-page-table-wrapp table {
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.contacts-page-table-wrapp table>tbody>tr:nth-of-type(odd) {
+    background-color: #d6d6d6;
+}
+.contacts-page-table-wrapp table>caption+thead>tr:first-child>td,
+.contacts-page-table-wrapp table>caption+thead>tr:first-child>th,
+.contacts-page-table-wrapp table>colgroup+thead>tr:first-child>td,
+.contacts-page-table-wrapp table>colgroup+thead>tr:first-child>th,
+.contacts-page-table-wrapp table>thead:first-child>tr:first-child>td,
+.contacts-page-table-wrapp table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+.contacts-page-table-wrapp table>thead>tr>td,
+.contacts-page-table-wrapp table>thead>tr>th {
+    border-bottom-width: 2px;
+}
+.contacts-page-table-wrapp table>tbody>tr>td, 
+.contacts-page-table-wrapp table>tbody>tr>th, 
+.contacts-page-table-wrapp table>tfoot>tr>td, 
+.contacts-page-table-wrapp table>tfoot>tr>th, 
+.contacts-page-table-wrapp table>thead>tr>td, 
+.contacts-page-table-wrapp table>thead>tr>th {
+    border: 1px solid #ddd;
+}
+.contacts-page-table-wrapp table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.contacts-page-table-wrapp table>tbody>tr>td,
+.contacts-page-table-wrapp table>tbody>tr>th,
+.contacts-page-table-wrapp table>tfoot>tr>td,
+.contacts-page-table-wrapp table>tfoot>tr>th,
+.contacts-page-table-wrapp table>thead>tr>td,
+.contacts-page-table-wrapp table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.contacts-page-table-wrapp table th {
+    text-align: left;
+}
+.contacts-page-table-wrapp table td, .contacts-page-table-wrapp table th {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

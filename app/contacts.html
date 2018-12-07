@@ -6,30 +6,7 @@
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <link href="plugins/revolution/css/settings.css" rel="stylesheet">
-    <link href="plugins/revolution/css/layers.css" rel="stylesheet">
-    <link href="plugins/revolution/css/navigation.css" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="_active-preloader-ovh">
 
@@ -192,13 +169,15 @@
                 <div class="col-md-6">
                     <form action="inc/sendemail.php" class="contact-form">
                         <h3>Напишите нам</h3>
-                        <div class="col-md-6 col-sm-12 col-xs-12 inp-wrap">
-                            <input type="text" placeholder="Ваше имя" name="name" />
-                            <input type="text" placeholder="Телефон" name="phone" />
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12 inp-wrap">
-                            <input type="text" placeholder="E-mail" name="email" />
-                            <input type="text" placeholder="Тема обращения" name="theme" />
+                        <div class="input-wrap">
+                            <div class="inp-wrap">
+                                <input type="text" placeholder="Ваше имя" name="name" />
+                                <input type="text" placeholder="Телефон" name="phone" />
+                            </div>
+                            <div class="inp-wrap">
+                                <input type="text" placeholder="E-mail" name="email" />
+                                <input type="text" placeholder="Тема обращения" name="theme" />
+                            </div>
                         </div>
                         <textarea placeholder="Сообщение" name="message"></textarea>
                         
@@ -225,7 +204,77 @@
                             </div>
                             <div class="accrodion-content" style="display: none;">
                                 <div class="inner">
-                                    
+                                    <div class="container">
+                                        <div class="contacts-page-table-wrapp">
+                                            <table>
+                                                <thead>
+                                                  <tr>
+                                                    <th>Организационно-правовая форма</th>
+                                                    <th>Общество с ограниченной ответственностью</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td>Фирменное наименование</td>
+                                                    <td>Общество с ограниченной ответственностью 
+                                                    "Хим-Транс-Трейд"</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Сокращенное наименование</td>
+                                                    <td>ООО "Хим-Транс-Трейд"</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Юридический адрес</td>
+                                                    <td>344103 Ростовская обл. r. Ростов-на-Дону ул. малиновскоrо дом № 54r оф. 204</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>Почтовый адрес</td>
+                                                      <td>344103 Ростовская обл. r. Ростов-на-Дону ул. малиновскоrо дом № 54r оф. 204</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>ОГРН</td>
+                                                      <td>1186196017017</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>ИНН/КПП</td>
+                                                      <td>6168102557 / 616801001</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>ОКВЭД</td>
+                                                      <td>46.71</td>
+                                                  </tr>
+                                                <tr>
+                                                    <td>Банковские реквизиты</td>
+                                                    <td>р/сч. 407 028 106 003 000 063 07</td>
+
+                                                    <td>Филиал Банка ВТБ ПАО в г. ростове-на-Дону</td>
+
+                                                    <td>к/сч. 301 018 103 000 000 009 99, БИК 046 015 999</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>ОКПО</td>
+                                                    <td>28351190</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Генеральный директор действует на оcновании Устава</td>
+                                                    <td>Никитченко Владимир Васильевич</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Главный бухгалтер</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Контакты:</td>
+                                                    <td>+7 (928) 229 59 36</td>
+                                                    <td>+7-(929) 535 33 33</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Email:</td>
+                                                    <td>info@himtranstrade.ru</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div><!-- /.inner -->
                             </div>
                         </div>

@@ -75,6 +75,9 @@
 @media (max-width: 768px) {
     .slider-home-one .content h2 {width: 80%;}
     .slider-home-one .content p {width: 60%;}
+        .inp-wrap {
+        width: 100%;
+    }
 }
 
 @media (max-width: 731px) {

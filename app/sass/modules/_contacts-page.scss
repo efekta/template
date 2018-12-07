@@ -39,7 +39,7 @@ padding-top: 0;
 	text-align: center;
 }
 .inp-wrap {
-	padding: 0 !important;
+	width: 48%;
 }
 
 
@@ -130,4 +130,9 @@ label:hover:before {
 #map_contacts {
     width: 100%;
     height: 450px;
+}
+.input-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }

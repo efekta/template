@@ -39,7 +39,7 @@
 variables styles 
 ***************************/
 @import 'modules/_var';
-@import '_settings/_setting';
+@import 'settings/_setting';
 // @import '_settings/_fonts';
 
 
@@ -218,3 +218,11 @@ variables styles
 28. shift-box styles
 ***************************/
 @import 'modules/_contacts-page';
+
+
+@import 'revolution/settings';
+@import 'revolution/layers';
+@import 'revolution/navigation';
+
+
+@import 'modules/_responsive';
