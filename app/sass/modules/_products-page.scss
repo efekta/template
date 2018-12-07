@@ -12,6 +12,7 @@
     box-shadow: 0px 0px 26px 0px rgba(215, 212, 212, 0.35);
     overflow: hidden;
     margin-bottom: 30px;
+
 }
 .fa_2 .factories .factories_img {
 	position: relative;
@@ -112,4 +113,15 @@ body i:before {
 }
 .products-title p {
 	font-size: 32px;
+}
+// .center-b {
+//     display: flex;
+//     justify-content: center;
+// }
+@media (max-width: 767px) {
+    .fa_2 .factories {
+        max-width: 370px;
+        margin: 0 auto 30px;
+    }
+
 }

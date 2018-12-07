@@ -1,0 +1,43 @@
+.main-banner {
+    min-height: 430px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.main-banner-380 {
+    min-height: 380px;
+}
+
+.main-banner-grad {
+    position: relative;
+}
+.shift-box {
+    padding-bottom: 25px;
+}
+.sidebar {
+    width: 322px;
+    float: left;
+    padding-left: 12px;
+    border-bottom: 2px solid #E8EAEB;
+}
+.shift-box-product .sidebar {
+    margin-top: 200px;
+    padding-left: 0;
+}
+.shift-box__content {
+    max-width: 877px;
+    margin: -200px auto 0;
+    background: #fff;
+    padding: 35px 50px;
+    position: relative;
+    box-sizing: border-box;
+}
+.shift-box-product .shift-box__content {
+    margin: -200px 0 0 322px;
+    padding-right: 38px;
+}
+.shift-box__content_i {
+    display: inline-block;
+    width: 100%;
+}
