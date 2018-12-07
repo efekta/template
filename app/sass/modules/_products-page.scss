@@ -1,0 +1,109 @@
+.fetures_area {
+    // background: url(../images/fetures-bg.png) no-repeat left bottom;
+    padding: 40px 0 0;
+    // background-size: contain;
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.fa_2 .factories {
+    position: relative;
+    box-shadow: 0px 0px 26px 0px rgba(215, 212, 212, 0.35);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.fa_2 .factories .factories_img {
+	position: relative;
+    text-align: center;
+    transform-origin: 50% 100%;
+}
+.fa_2 .factories .factories_img img {
+	max-width: 100%;
+}
+.fa_2 .factories .factories_img a {
+    display: block;
+    font: 700 21px/30px "Muli", sans-serif;
+    color: #fff;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(60, 71, 205, 0.839);
+}
+.fetures_area .fetures {
+    background: #fff;
+    box-shadow: 0px 0px 26px 0px rgba(215, 212, 212, 0.35);
+    padding: 45px 30px 45px 32px;
+    margin-bottom: 30px;
+    transition: all 300ms linear 0s;
+}
+.fa_2 .factories .fetures {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f9520b;
+    box-shadow: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.5) rotateY(180deg);
+    transition: all 500ms ease;
+    margin: 0;
+}
+.fa_2 .factories:hover .fetures, .fa_2 .factories:focus .fetures {
+    opacity: 1;
+    transform: scale(1) rotateY(0deg);
+    visibility: visible;
+}
+.fa_2 .factories .fetures .fetures_i:before, .fa_2 .factories .fetures h4, .fa_2 .factories .fetures a {
+    color: #fff;
+}
+
+.fetures_area .fetures .fetures_i:before {
+    color: #f9520b;
+    display: block;
+    line-height: 1;
+    font-size: 57px;
+    font-weight: normal;
+}
+.flaticon-architecture-and-city:before {
+    content: "\f108";
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px;
+}
+body i:before {
+    margin-left: 0px !important;
+}
+.fetures_area .fetures a {
+    display: block;
+    font: 600 18px/1 "Muli", sans-serif;
+    color: #000;
+    padding-top: 50px;
+}
+.fetures_area .fetures .heding {
+    font: 700 24px/35px "Muli", sans-serif;
+    color: #272727;
+    display: block;
+    padding: 20px 0;
+}
+.fa_2 .factories .fetures .fetures_i:before, .fa_2 .factories .fetures h4, .fa_2 .factories .fetures a {
+    color: #fff;
+}
+.fa_2 .factories .fetures p {
+    color: rgba(255, 255, 255, 0.702);
+}
+.fetures_area .fetures a i {
+    font-size: 12px;
+    margin-left: 5px;
+    transition: all 300ms linear 0s;
+}
+.fa-arrow-right:before {
+    content: "\f061";
+}
