@@ -2228,13 +2228,15 @@ label:hover:before { border: 2px solid #4778d9 !important; }
 
 .fa_2 .factories .factories_img img { max-width: 100%; }
 
-.fa_2 .factories .factories_img a { display: block; font: 700 21px/30px "Muli", sans-serif; color: #fff; padding: 20px 0; position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(60, 71, 205, 0.839); }
+.fa_2 .factories .factories_img a { display: block; font: 700 21px/30px "Muli", sans-serif; color: #fff; padding: 20px 0; position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(43, 120, 228, 0.839); }
 
 .fetures_area .fetures { background: #fff; -webkit-box-shadow: 0px 0px 26px 0px rgba(215, 212, 212, 0.35); box-shadow: 0px 0px 26px 0px rgba(215, 212, 212, 0.35); padding: 45px 30px 45px 32px; margin-bottom: 30px; -webkit-transition: all 300ms linear 0s; -o-transition: all 300ms linear 0s; transition: all 300ms linear 0s; }
 
-.fa_2 .factories .fetures { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #f9520b; -webkit-box-shadow: none; box-shadow: none; opacity: 0; visibility: hidden; -webkit-transform: scale(0.5) rotateY(180deg); transform: scale(0.5) rotateY(180deg); -webkit-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; margin: 0; }
+.fa_2 .factories .fetures { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(43, 120, 228, 0.839); -webkit-box-shadow: none; box-shadow: none; opacity: 0; visibility: hidden; -webkit-transform: scale(0.5) rotateY(180deg); transform: scale(0.5) rotateY(180deg); -webkit-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; margin: 0; }
 
 .fa_2 .factories:hover .fetures, .fa_2 .factories:focus .fetures { opacity: 1; -webkit-transform: scale(1) rotateY(0deg); transform: scale(1) rotateY(0deg); visibility: visible; }
+
+.fa_2 .factories:hover .factories_img a { opacity: 0; }
 
 .fa_2 .factories .fetures .fetures_i:before, .fa_2 .factories .fetures h4, .fa_2 .factories .fetures a { color: #fff; }
 
@@ -2257,6 +2259,8 @@ body i:before { margin-left: 0px !important; }
 .fetures_area .fetures a i { font-size: 12px; margin-left: 5px; -webkit-transition: all 300ms linear 0s; -o-transition: all 300ms linear 0s; transition: all 300ms linear 0s; }
 
 .fa-arrow-right:before { content: "\f061"; }
+
+.products-title p { font-size: 32px; }
 
 /*-----------------------------------------------------------------------------
 
