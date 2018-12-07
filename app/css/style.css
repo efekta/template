@@ -1194,11 +1194,11 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .contacts-page-table-wrapp table > thead > tr > td, .contacts-page-table-wrapp table > thead > tr > th { border-bottom-width: 2px; }
 
-.contacts-page-table-wrapp table > tbody > tr > td, .contacts-page-table-wrapp table > tbody > tr > th, .contacts-page-table-wrapp table > tfoot > tr > td, .contacts-page-table-wrapp table > tfoot > tr > th, .contacts-page-table-wrapp table > thead > tr > td, .contacts-page-table-wrapp table > thead > tr > th { border: 1px solid #ddd; }
+.contacts-page-table-wrapp table > tbody > tr > td, .contacts-page-table-wrapp table > tbody > tr > th, .contacts-page-table-wrapp table > tfoot > tr > td, .contacts-page-table-wrapp table > tfoot > tr > th, .contacts-page-table-wrapp table > thead > tr > td, .contacts-page-table-wrapp table > thead > tr > th { border: 1px solid #252525; }
 
-.contacts-page-table-wrapp table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #ddd; }
+.contacts-page-table-wrapp table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #252525; }
 
-.contacts-page-table-wrapp table > tbody > tr > td, .contacts-page-table-wrapp table > tbody > tr > th, .contacts-page-table-wrapp table > tfoot > tr > td, .contacts-page-table-wrapp table > tfoot > tr > th, .contacts-page-table-wrapp table > thead > tr > td, .contacts-page-table-wrapp table > thead > tr > th { padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #ddd; }
+.contacts-page-table-wrapp table > tbody > tr > td, .contacts-page-table-wrapp table > tbody > tr > th, .contacts-page-table-wrapp table > tfoot > tr > td, .contacts-page-table-wrapp table > tfoot > tr > th, .contacts-page-table-wrapp table > thead > tr > td, .contacts-page-table-wrapp table > thead > tr > th { padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #252525; }
 
 .contacts-page-table-wrapp table th { text-align: left; }
 
@@ -2297,6 +2297,20 @@ body i:before { margin-left: 0px !important; }
 .shift-box-product .shift-box__content { margin: -200px 0 0 322px; padding-right: 38px; }
 
 .shift-box__content_i { display: inline-block; width: 100%; }
+
+.breadcumb { margin-bottom: 20px; }
+
+ul.breadcumb li { display: inline-block; vertical-align: middle; }
+
+ul.breadcumb a, ul.breadcumb span { color: #2b78e4; font-size: 18px; }
+
+.shift-box-article p { text-transform: uppercase; }
+
+.article-table h2 { margin-bottom: 20px; }
+
+.article-table table { width: 100%; }
+
+.article-table table thead { background: #2b78e4; color: #fff; padding: 10px; }
 
 /*-----------------------------------------------------------------------------
 

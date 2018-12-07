@@ -41,3 +41,30 @@
     display: inline-block;
     width: 100%;
 }
+.breadcumb {
+	margin-bottom: 20px;
+}
+ul.breadcumb li {
+    display: inline-block;
+    vertical-align: middle;
+}
+ul.breadcumb a, ul.breadcumb span {
+    color: #2b78e4;
+    font-size: 18px;
+}
+.shift-box-article p {
+	text-transform: uppercase;
+}
+.article-table h2 {
+	margin-bottom: 20px;
+}
+.article-table table {
+	width: 100%;
+}
+.article-table table thead {
+	background: $blue;
+	color: #fff;
+	padding: 10px;
+	// width: 100%;
+ //    display: table-caption;
+}
