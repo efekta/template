@@ -1196,9 +1196,9 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .contacts-page-table-wrapp table > tbody > tr > td, .contacts-page-table-wrapp table > tbody > tr > th, .contacts-page-table-wrapp table > tfoot > tr > td, .contacts-page-table-wrapp table > tfoot > tr > th, .contacts-page-table-wrapp table > thead > tr > td, .contacts-page-table-wrapp table > thead > tr > th { border: 1px solid #252525; }
 
-.contacts-page-table-wrapp table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #252525; }
+.contacts-page-table-wrapp table > thead > tr > th { vertical-align: bottom; border-bottom: 1px solid #252525; }
 
-.contacts-page-table-wrapp table > tbody > tr > td, .contacts-page-table-wrapp table > tbody > tr > th, .contacts-page-table-wrapp table > tfoot > tr > td, .contacts-page-table-wrapp table > tfoot > tr > th, .contacts-page-table-wrapp table > thead > tr > td, .contacts-page-table-wrapp table > thead > tr > th { padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #252525; }
+.contacts-page-table-wrapp table > tbody > tr > td, .contacts-page-table-wrapp table > tbody > tr > th, .contacts-page-table-wrapp table > tfoot > tr > td, .contacts-page-table-wrapp table > tfoot > tr > th, .contacts-page-table-wrapp table > thead > tr > td, .contacts-page-table-wrapp table > thead > tr > th { padding: 8px; line-height: 1.42857143; vertical-align: middle; border-top: 1px solid #252525; }
 
 .contacts-page-table-wrapp table th { text-align: left; }
 
@@ -2178,6 +2178,10 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .sidebar .single-sidebar.broucher-sidebar a.broucher-btn:hover i { color: #FD5912; }
 
+.sidebar .single-sidebar.service-sidebar ul.service-list li:hover a, .sidebar .single-sidebar.service-sidebar ul.service-list li.active a { background: #2b78e4; color: #fff; }
+
+.sidebar .single-sidebar.service-sidebar ul.service-list li a:before { content: ''; width: 6px; height: 0; background: #252525; position: absolute; top: 0; left: 0; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
 /************************** 
 28. shift-box styles
 ***************************/
@@ -2290,8 +2294,6 @@ body i:before { margin-left: 0px !important; }
 
 .sidebar { width: 322px; float: left; padding-left: 12px; border-bottom: 2px solid #E8EAEB; }
 
-.shift-box-product .sidebar { margin-top: 200px; padding-left: 0; }
-
 .shift-box__content { max-width: 877px; margin: -200px auto 0; background: #fff; padding: 35px 50px; position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .shift-box-product .shift-box__content { margin: -200px 0 0 322px; padding-right: 38px; }
@@ -2310,7 +2312,7 @@ ul.breadcumb a, ul.breadcumb span { color: #2b78e4; font-size: 18px; }
 
 .article-table table { width: 100%; }
 
-.article-table table thead { background: #2b78e4; color: #fff; padding: 10px; }
+table thead { border-top: 1px solid #252525; }
 
 /*-----------------------------------------------------------------------------
 

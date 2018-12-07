@@ -21,10 +21,10 @@
     padding-left: 12px;
     border-bottom: 2px solid #E8EAEB;
 }
-.shift-box-product .sidebar {
-    margin-top: 200px;
-    padding-left: 0;
-}
+// .shift-box-product .sidebar {
+//     margin-top: 200px;
+//     padding-left: 0;
+// }
 .shift-box__content {
     max-width: 877px;
     margin: -200px auto 0;
@@ -61,10 +61,12 @@ ul.breadcumb a, ul.breadcumb span {
 .article-table table {
 	width: 100%;
 }
-.article-table table thead {
-	background: $blue;
-	color: #fff;
-	padding: 10px;
+table thead {
+	// background: $blue;
+	border-top: 1px solid #252525;
+	// color: #fff;
+
+	// padding: 10px;
 	// width: 100%;
  //    display: table-caption;
 }
