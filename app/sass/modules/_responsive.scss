@@ -14,6 +14,18 @@
     .header-top .single-header-right-info .text-box {text-align: left;}
     .header-top.home-three .logo {padding-bottom: 0;}
     .header.header-home-three .header-navigation .container .right-side-box a.rqa-btn {border-bottom-width: 4px;}
+    .contact-info-style-one .contact-infos .single-contact-infos.or {
+        display: none;
+    }
+    .contact-info-style-one {
+        text-align: center;
+        .title {
+            margin-bottom: 20px;
+        }
+        .single-contact-infos .text-box h3.mb {
+            margin-bottom: 20px;
+        }
+    }
 }
 @media (max-width: 1024px) {
     img {max-width: 100%;}
@@ -21,7 +33,11 @@
     .portfolio-style-two .gallery-filter ul li span {padding-left: 17px;padding-right: 17px;}
     .single-testimonial-style-two p br {display: none;}
     .fact-counter-section .single-progress-bar .progress-scale {width: 200px;}
-    .contact-info-style-one .contact-infos {padding-left: 0;}
+    .contact-info-style-one .contact-infos {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
     .contact-info-style-one .contact-infos .single-contact-infos + .single-contact-infos {margin-left: 20px;}
     .header-top.home-three .logo {padding-bottom: 0;}
     .single-service-style-four .img-box .box .content i {font-size: 37px;}
@@ -67,7 +83,7 @@
     .features-style-two {padding-bottom: 85px;}
     .single-features-style-two {margin-bottom: 40px;}
     .strategy-wrapper [class*=col-] {width: 33.33333%;float: left;}
-    .sidebar {margin-top: 80px;}
+    .sidebar {margin-top: 0;}
     .contact-info-style-two .left-content:after {right: -30px;}
     .contact-info-style-two .right-video-box {min-height: 400px;}
 
@@ -180,9 +196,6 @@
 }
 @media only screen and (max-width: 767px) {
     .contact-info-style-one .title h3:after {
-        display: none;
-    }
-    .contact-info-style-one .contact-infos .single-contact-infos.or {
         display: none;
     }
     .contact-info-style-one .title {

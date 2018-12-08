@@ -147,7 +147,7 @@
                 margin: 0;padding: 0;list-style: none;
                 li {
                     + li {margin-top: 7px;}
-                    a {display: block;color: #252525;font-weight: 500;font-size: 16px;background:#F5F5F5;position: relative;padding-left: 25px;line-height: 58px;transition: all .4s ease;
+                    a {display: block;color: #252525;font-weight: 500;font-size: 16px;background:#F5F5F5;position: relative;padding: 10px 25px;transition: all .4s ease;
                         &:before {
                             content: '';
                             width: 6px;

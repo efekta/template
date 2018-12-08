@@ -16,7 +16,7 @@ footer.site-footer {
 			margin-bottom: 25px;
 			h3 {font-size: 18px;color: #262626;font-weight: 600;font-family: 'Poppins', sans-serif;}
 		}
-		p {font-size: 15px;color: #888888;line-height: 25px;}
+		p {font-size: 15px;color: #888888;line-height: 25px; margin-left: 10px;}
 		ul.links-list {
 			li {
 				display: block;line-height: 1em;
@@ -63,6 +63,7 @@ footer.site-footer {
 	margin-bottom: 20px;
 }
 .footer-contacts {
+	display: flex;
 	img {
 		max-width: 100%;
 		width: auto;
@@ -71,12 +72,12 @@ footer.site-footer {
 	p {
 		display: inline-block;
 		vertical-align: middle;
-		// font-size: 0;
+		// margin-left: 10px;
 	}
 	span {
-		display: inline-block;
-		vertical-align: middle;
-		margin-right: 10px;
+		// display: inline-block;
+		// vertical-align: middle;
+		// margin-right: 10px;
 	}
 }
 .footer-widget h3 {
