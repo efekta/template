@@ -1,0 +1,39 @@
+.info-page-title {
+	text-align: left;
+}
+.info-content {
+	margin: 50px 0;
+}
+.info-video-wrapp {
+	width: 80%;
+	margin: 0 auto;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+.info-content ul li p {
+	width: 90%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.info-content ul li span {
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.info-content ul li span svg {
+	font-size: 26px;
+	color: red;
+}
+.info-content_cite {
+	padding: 30px;
+	margin-bottom: 0px;
+	// border: 3px solid $blue;
+		blockquote {
+	    padding: 20px 35px;
+	    margin: 0;
+	    font-size: 18px;
+	    border-left: 4px solid $blue;
+	}
+}
