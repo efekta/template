@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8" />
-    <title>Текстовая страница</title>
+    <title>Информация</title>
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
@@ -107,36 +107,189 @@
         </nav>   
     </header><!-- /.header -->
     
-    <div class="inner-banner">
-        <div class="container">
-            <h3>Контакты</h3>
-            <ul class="breadcumb">
-                <li><a href="index.html">Главная</a></li><!--
-                --><li><span class="sep"><i class="fa fa-angle-right"></i></span></li><!--
-                --><li><span>Контакты</span></li>
-            </ul><!-- /.breadcumb -->
-        </div><!-- /.container -->
-    </div> <!--inner baner -->
-
-    <div class="contact-page">
-        <div class="container">
-            <div class="contact-page-content">
-                <div class="sec-title text-center">
-                    <h3>Контакты компании<span>&quot;ООО Хим - Транс - Трейд&quot;</span></h3>
-                </div>
-
-            </div>
-        </div>
+    <div class="main-banner main-banner-380 main-banner-grad hidden-banner" style="background-image: url('img/banner-1-1.jpg')">
     </div>
+    
+    <div class="container shift-box shift-box-product">
+        <div class="row shift-box_i">
+            <div class="shift-box__content">
+                <div class="shift-box__content_i">
+                    <ul class="breadcumb">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><span class="sep"><i class="fa fa-angle-right"></i></span></li>
+                        <li><span>Информация</span></li>
+                        <li><span class="sep"><i class="fa fa-angle-right"></i></span></li>
+                        <li><span>Доставка</span></li>
+                    </ul>
+                    <div class="sec-title text-center">
+                        <h3>Доставка груза</h3>
+                    </div>
+                </div>
+                <div class="company-contacts_box clearfix">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="company-contacts">
+                            <span class="icon-box">
+                                <i class="fal fa-map"></i>
+                            </span>
+                            <p>г. Ростов-на-Дону, ул. Малиновского,<br> дом № 54Г, офис 204</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="company-contacts">
+                            <span class="icon-box i-box_z">
+                                <i class="fal fa-phone-volume"></i>
+                            </span><!-- /.icon-box -->
+                            <p>
+                                <a class="head-link_contacts d-block-link d-color" href="tel:+79282295936">+7 (928) 229 59 36</a>
+                                <a class="head-link_contacts d-block-link d-color" href="tel:+79295353333">+7-(929) 535 33 33</a>
+                            </p><!-- /.text-box -->
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="company-contacts">
+                            <span class="icon-box">
+                                <i class="industrio-icon-envelope"></i>
+                            </span><!-- /.icon-box -->
+                            <p>
+                                <a class="head-link_contacts d-color" href="mailto:info@himtranstrade.ru">info@himtranstrade.ru</a>
+                            </p><!-- /.text-box -->
+                        </div>
+                    </div>
+                </div>
+                <section class="contact-page sec-pad">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="map_contacts"></div>
+                            </div><!-- /.col-md-6 -->
+                            <div class="col-md-6">
+                                <form action="inc/sendemail.php" class="contact-form">
+                                    <h3>Напишите нам</h3>
+                                    <div class="input-wrap">
+                                        <div class="inp-wrap">
+                                            <input type="text" placeholder="Ваше имя" name="name" />
+                                            <input type="text" placeholder="Телефон" name="phone" />
+                                        </div>
+                                        <div class="inp-wrap">
+                                            <input type="text" placeholder="E-mail" name="email" />
+                                            <input type="text" placeholder="Тема обращения" name="theme" />
+                                        </div>
+                                    </div>
+                                    <textarea placeholder="Сообщение" name="message"></textarea>
+                                    
+                                    <p>Ваши персональные данные не будут переданы третьим лицам</p>
+                                    <div class="form-personal">
+                                        <input type="checkbox" id="test1" />
+                                        <label for="test1">Я даю согласие на обработку моих персональных данных</label>
+                                    </div>
+                                    <button type="submit" class="hvr-sweep-to-right">Отправить сообщение</button>
+                                </form>
+                            </div><!-- /.col-md-6 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </section><!-- /.contact-page -->
 
     <section class="contact-page sec-pad">
         <div class="container">
             <div class="row">
+                <div class="faq-style-one">
+                    <div class="accrodion-grp faq-accrodion" data-grp-name="faq-accrodion">
+                        <div class="accrodion">
+                            <div class="accrodion-title sec-title text-center">
+                                <h3><span>Наши реквизиты</span></h3>
+                            </div>
+                            <div class="accrodion-content" style="display: none;">
+                                <div class="inner">
+                                    <div class="container">
+                                        <div class="contacts-page-table-wrapp">
+                                            <table>
+                                                <thead>
+                                                  <tr>
+                                                    <th>Организационно-правовая форма</th>
+                                                    <th>Общество с ограниченной ответственностью</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td>Фирменное наименование</td>
+                                                    <td>Общество с ограниченной ответственностью 
+                                                    "Хим-Транс-Трейд"</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Сокращенное наименование</td>
+                                                    <td>ООО "Хим-Транс-Трейд"</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Юридический адрес</td>
+                                                    <td>344103 Ростовская обл. r. Ростов-на-Дону ул. малиновскоrо дом № 54r оф. 204</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>Почтовый адрес</td>
+                                                      <td>344103 Ростовская обл. r. Ростов-на-Дону ул. малиновскоrо дом № 54r оф. 204</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>ОГРН</td>
+                                                      <td>1186196017017</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>ИНН/КПП</td>
+                                                      <td>6168102557 / 616801001</td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>ОКВЭД</td>
+                                                      <td>46.71</td>
+                                                  </tr>
+                                                    <tr>
+                                                        <td>Банковские реквизиты</td>
+                                                        <td>
+                                                            <p>р/сч. 407 028 106 003 000 063 07</p>
+
+                                                            <p>Филиал Банка ВТБ ПАО в г. ростове-на-Дону</p>
+
+                                                            <p>к/сч. 301 018 103 000 000 009 99, БИК 046 015 999</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>ОКПО</td>
+                                                        <td>28351190</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Генеральный директор действует на оcновании Устава</td>
+                                                        <td>Никитченко Владимир Васильевич</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Главный бухгалтер</td>
+                                                        <td>Главный бухгалтер</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Контакты:</td>
+                                                        <td>
+                                                            <p>+7 (928) 229 59 36</p>
+                                                            <p>+7-(929) 535 33 33</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Email:</td>
+                                                        <td>info@himtranstrade.ru</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- /.inner -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            </div>
+        </div>
+    </div>
 
 
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.contact-page -->
 
 
     <section class="contact-info-style-one">
