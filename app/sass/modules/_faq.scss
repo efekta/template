@@ -5,8 +5,8 @@
     }
     .accrodion-grp {
         background:#F6F6F6;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
         .accrodion {
             // padding-left: 25px;
             // padding-right: 25px;
@@ -20,6 +20,7 @@
             	cursor: pointer;
                 transition: all .4s ease;
                 text-align: center;
+                margin-bottom: 0;
                 h4 {
                     margin: 0;
                     position: relative;

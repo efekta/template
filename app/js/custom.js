@@ -21,7 +21,6 @@ function accrodion () {
                         $(this).parent().find('.accrodion-content').slideDown();        
                     };
                     
-
                 });
             });
         });
