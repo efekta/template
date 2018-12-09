@@ -96,7 +96,7 @@
                     </ul>                
                 </div><!-- /.navbar-collapse -->
                 <div class="right-side-box">
-                    <a href="#" class="rqa-btn">
+                    <a href="#" class="rqa-btn" data-toggle="modal" data-target=".bs-example-modal-lg">
                         <span class="inner">Заказать звонок
                          <i class="fa fa-caret-right"></i>
                         </span>
@@ -379,6 +379,92 @@
         </div>
     </div>
 </footer><!-- /.site-footer -->
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content wrapper-tab">
+            <header class="modal-header">
+                <div class="title-box">
+                    <div class="modal-title">Заказать консультацию</div>
+                </div>
+                <div class="tabs">
+                    <span class="tab tab-active">По телефону</span>
+                    <span class="tab">По E-mail</span>
+                </div>
+                <button class="close" type="button" data-dismiss="modal" alia-label="Close">
+                    <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                </button>
+            </header>
+            <div class="tab_content">
+                <div class="tab-items">
+                    <form action="#" method="POST" class="">
+                        <div class="tab_item modal-body">
+                            <div class="form-body">
+                                <div class="form-inner modal-form-inner">
+                                    <label>
+                                        <input type="text" placeholder="Ваше имя" name="name">
+                                        <i class="fa fa-user input-box-ico"></i>
+                                        <span class="error">Это поле обязательно для заполнения.</span>
+                                    </label>
+                                </div>
+                                <div class="form-inner modal-form-inner">
+                                    <label>
+                                        <input type="text" placeholder="8(888)888-88-88" class="phone" name="phone2">
+                                        <i class="fa fa-phone input-box-ico"></i>
+                                        <span class="error">Это поле обязательно для заполнения.</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="security">
+                                <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
+                            </div>
+                            <div class="input-box-personal">
+                                <input type="checkbox" id="checked_iab" name="personal">
+                                <label for="checked_iab">Я даю согласие на обработку моих персональных данных</label>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="#" method="POST" class="">
+                        <div class="tab_item modal-body">
+                            <div class="form-body">
+                                <div class="form-inner modal-form-inner">
+                                    <label>
+                                        <input type="text" placeholder="Ваше имя" name="name">
+                                        <i class="fa fa-user input-box-ico"></i>
+                                        <span class="error">Это поле обязательно для заполнения.</span>
+                                    </label>
+                                </div>
+                                <div class="form-inner modal-form-inner">
+                                    <label>
+                                        <input type="text" placeholder="E-mail" name="email">
+                                        <i class="fa fa-envelope input-box-ico"></i>
+                                        <span class="error">Это поле обязательно для заполнения.</span>
+                                    </label>
+                                </div>
+                            </div>
+                             <div class="form-inner modal-form-inner modal-form-inner-a">
+                                <textarea name="message" id="modal_user_message" rows="10" placeholder="Ваш вопрос"></textarea>
+                            </div>
+                            
+                            <div class="security">
+                                <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
+                            </div>
+                            <div class="input-box-personal">
+                                <input type="checkbox" id="checked_iac" name="personal">
+                                <label for="checked_iac">Я даю согласие на обработку моих персональных данных</label>
+                            </div>
+                        </div>
+                        <footer class="modal-footer">
+                            <button class="btn btn-modal-footer" type="submit">Заказать</button>
+                        </footer>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <section class="hidden-sidebar side-navigation">
     <a href="#" class="close-button side-navigation-close-btn">

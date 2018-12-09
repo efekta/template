@@ -48,6 +48,15 @@
         .company-contacts {
         margin-bottom: 20px;
     }
+    .modal .form-body  {
+        flex-wrap: wrap;
+    }
+    .modal-form-inner input {
+        width: 100%;
+    }
+    .modal-title {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 991px) {

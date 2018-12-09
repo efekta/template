@@ -39,9 +39,11 @@
 variables styles 
 ***************************/
 @import 'modules/_var';
+// @import "../plugins/bootstrap/scss/bootstrap-reboot";
 @import 'settings/_setting';
-// @import '_settings/_fonts';
-
+@import 'settings/_fonts';
+// @import '../plugins/bootstrap/scss/modal';
+@import 'modules/_modal';
 
 // math functions are not included in sass
 @import 'drop-shadow-converter/mathfunctions';

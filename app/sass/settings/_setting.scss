@@ -69,3 +69,7 @@ body a, body .btn, body button {
     outline: none;
     transition: all 300ms linear 0s;
 }
+.industrio-icon-play-button:before {
+    content: "\e904";
+    color: $blue !important;
+}

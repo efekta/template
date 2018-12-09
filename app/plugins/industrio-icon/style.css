@@ -47,7 +47,7 @@
 }
 .industrio-icon-play-button:before {
   content: "\e904";
-  color: $blue;
+  color: #fe5a0e;
 }
 .industrio-icon-wind-engine:before {
   content: "\e905";
