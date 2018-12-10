@@ -89,7 +89,7 @@ body i:before {
     display: block;
     font: 600 18px/1 "Muli", sans-serif;
     color: #000;
-    padding-top: 50px;
+    // padding-top: 50px;
 }
 .fetures_area .fetures .heding {
     font: 700 24px/35px "Muli", sans-serif;
@@ -114,10 +114,15 @@ body i:before {
 .products-title p {
 	font-size: 32px;
 }
-// .center-b {
-//     display: flex;
-//     justify-content: center;
-// }
+.product-shift-box__content {
+    margin: -200px auto 0;
+    padding: 30px;
+    position: relative;
+    background-color: transparent;
+    .products-title h3 {
+        color: #fff;
+    }
+}
 @media (max-width: 767px) {
     .fa_2 .factories {
         max-width: 370px;

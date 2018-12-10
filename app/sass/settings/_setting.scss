@@ -48,15 +48,15 @@ img {
 .i-box_w {
     	color: #fff;
     }
-.i-trs {
-	transform: rotate(-20deg);
-}
-.i-box_z {
-	transform: rotate(-45deg);
-}
-.a-icon-box {
-	text-align: center;
-}
+// .i-trs {
+// 	transform: rotate(-20deg);
+// }
+// .i-box_z {
+// 	transform: rotate(-45deg);
+// }
+// .a-icon-box {
+// 	text-align: center;
+// }
 .d-block-link {
 	display: block;
 }
@@ -72,4 +72,7 @@ body a, body .btn, body button {
 .industrio-icon-play-button:before {
     content: "\e904";
     color: $blue !important;
+}
+.transform-ico {
+	transform: rotate(100deg);
 }
