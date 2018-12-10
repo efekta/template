@@ -40,7 +40,7 @@ $(document).ready(function() {
     }).eq(0).addClass('tab-active');
 
 
-//table mobile
+//Table Mobile
 if (window.innerWidth < 728) { 
     $('.contacts-page-table-wrapp table').replaceWith( $('.contacts-page-table-wrapp table').html()
        .replace(/<thead/gi, "<div id='table'")
