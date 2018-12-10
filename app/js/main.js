@@ -33,18 +33,31 @@ $(document).ready(function() {
 }
 
 //Tabs
-    $(".tab_item").not(":first").hide();
-    $(".wrapper-tab .tab").click(function() {
-      $(".wrapper-tab .tab").removeClass("tab-active").eq($(this).index()).addClass("tab-active");
-      $(".tab_item").hide().eq($(this).index()).fadeIn()
-    }).eq(0).addClass("tab-active");
+    $('.tab_item').not(':first').hide();
+    $('.wrapper-tab .tab').click(function() {
+      $('.wrapper-tab .tab').removeClass('tab-active').eq($(this).index()).addClass('tab-active');
+      $('.tab_item').hide().eq($(this).index()).fadeIn()
+    }).eq(0).addClass('tab-active');
 
 
 //table mobile
+if (window.innerWidth < 728) { 
+    $('.contacts-page-table-wrapp table').replaceWith( $('.contacts-page-table-wrapp table').html()
+       .replace(/<thead/gi, "<div id='table'")
+       .replace(/<th/gi, "<div")
+       .replace(/<tbody/gi, "<div")
+       .replace(/<tr/gi, "<div")
+       .replace(/<\/tr>/gi, "</div>")
+       .replace(/<td/gi, "<div")
+       .replace(/<\/td>/gi, "</div")
+       .replace(/<\/th/gi, "<\/div")
+       .replace(/<\/thead/gi, "<\/div")
+       .replace(/<\/tbody/gi, "<\/div")
+    );
+// else ()
+}
 
 });
-
-
 
 
 
