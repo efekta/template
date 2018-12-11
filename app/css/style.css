@@ -37,7 +37,7 @@
 /**************************
 variables styles 
 ***************************/
-@import url("https://fonts.googleapis.com/css?family=Marck+Script|Roboto:400,400i,500,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Lobster|Roboto:400,400i,500,700&subset=cyrillic");
 @import url(bootstrap.min.css);
 @import url(bootstrap-select.min.css);
 @import url(owl.carousel.css);
@@ -121,7 +121,7 @@ body a, body .btn, body button { outline: none; -webkit-transition: all 300ms li
 
 .modal input[type="checkbox"] + label::before { font-size: 18px; font-weight: 400; }
 
-.modal label { font-size: 14px; }
+.modal label { position: relative; font-size: 14px; margin-bottom: 25px; }
 
 .input-box-personal { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
@@ -135,11 +135,13 @@ body a, body .btn, body button { outline: none; -webkit-transition: all 300ms li
 
 .tabs { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.modal label { margin-bottom: 25px; }
-
 .btn-modal-footer { border: 2px solid #2b78e4; }
 
 .btn-modal-footer:hover { background: #2b78e4; color: #fff; border: 2px solid #fff; -webkit-transition: all 300ms linear 0s; -o-transition: all 300ms linear 0s; transition: all 300ms linear 0s; }
+
+[type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after { content: '\2713\0020'; position: absolute; top: .25em; left: 0.25em; font-size: 1.3em; line-height: 0.7; color: #2b78e4; font-weight: 700; -webkit-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+
+.input-box-ico { position: absolute; top: 25%; left: 20px; }
 
 /************************** 
 * 1. imported styles 
@@ -187,7 +189,7 @@ a:hover, a:visited, a:focus, a:active { text-decoration: none !important; outlin
 
 .sec-title p { color: #555555; margin: 0 auto; font-size: 18px; line-height: 28px; width: 60%; }
 
-.sec-title span { color: #2b78e4; font-family: "Marck Script"; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3)); background: -webkit-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: -o-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: linear-gradient(to right, #0703f8 0%, #2196f3 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.sec-title span { color: #2b78e4; font-family: "Lobster", cursive; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3)); background: -webkit-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: -o-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: linear-gradient(to right, #0703f8 0%, #2196f3 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 .sec-title.light h3 { color: #fff; }
 
@@ -615,7 +617,7 @@ body.active-preloader-ovh { overflow: hidden; }
 
 .main-slider h2 { position: relative; color: #ffffff; font-size: 42px; font-weight: 700; line-height: 1.3em; margin-bottom: 20px; font-family: "Roboto"; font-weight: 600; text-align: left; }
 
-.main-slider h2 span { width: 100%; color: #2b78e4; font-size: 28px; font-family: "Marck Script"; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3)); background: -webkit-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: -o-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: linear-gradient(to right, #0703f8 0%, #2196f3 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.main-slider h2 span { width: 100%; color: #2b78e4; font-size: 28px; font-family: "Lobster", cursive; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3)); background: -webkit-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: -o-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: linear-gradient(to right, #0703f8 0%, #2196f3 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 .main-slider h2 p { margin: 0; }
 
@@ -1889,7 +1891,7 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .about-style-one .about-content h3 { font-size: 32px; color: #262626; font-weight: 600; font-family: "Roboto"; }
 
-.about-style-one .about-content h3 span { font-family: "Marck Script"; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3)); background: -webkit-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: -o-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: linear-gradient(to right, #0703f8 0%, #2196f3 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: #2b78e4; }
+.about-style-one .about-content h3 span { font-family: "Lobster", cursive; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3)); background: -webkit-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: -o-linear-gradient(left, #0703f8 0%, #2196f3 100%); background: linear-gradient(to right, #0703f8 0%, #2196f3 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: #2b78e4; }
 
 .about-style-one .about-content h3:after { display: inline-block; vertical-align: middle; content: ''; width: 38px; height: 2px; background: #888888; margin-left: 15px; margin-top: 18px; }
 
