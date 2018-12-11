@@ -19,7 +19,7 @@
                 margin: 0;
                 color: #262626;
                 font-size: 22px;
-                font-family: 'Poppins', sans-serif;
+                font-family: $sans_serif;
                 font-weight: 600;
                 &:after {
                     display: inline-block;
@@ -114,7 +114,7 @@
                         letter-spacing: .01em;
                         font-weight: 600;
                         margin-bottom: 10px;
-                        font-family: 'Poppins', sans-serif;
+                        font-family: $sans_serif;
                         transition: all .4s ease;
                         &:hover {
                         	color: $blue;
@@ -172,7 +172,7 @@
             padding: 0 !important;
             .title {h3:after {display: none;} }
             p {font-size: 15px;color: #545454;line-height: 28px;letter-spacing: .025em;margin: 0;margin-bottom: 30px;}
-            a.broucher-btn {display: block;background:#F5F5F5;font-family: 'Poppins', sans-serif;font-weight: 600;font-size: 16px;line-height: 45px;padding-left: 75px;color: #252525;position: relative;transition: all .4s ease;
+            a.broucher-btn {display: block;background:#F5F5F5;font-family: $sans_serif;font-weight: 600;font-size: 16px;line-height: 45px;padding-left: 75px;color: #252525;position: relative;transition: all .4s ease;
                 i {font-size: 25px;margin-right: 13px;line-height: 45px;position: absolute;top: 50%;left: 30px;transform: translateY(-50%);}
                 + a {margin-top: 15px;}
                 &:hover {background:#252525;color: #FFFFFF;

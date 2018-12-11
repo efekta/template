@@ -3,7 +3,7 @@
 		position: relative;
 		> img {position: relative;z-index: 3;}
 		.name-box {width: 90%;position: absolute;bottom: 65px;
-			.inner {background:$blue;color: #FFFFFF;font-size: 18px;line-height: 1.2em;font-weight: 600;font-family: 'Poppins', sans-serif;padding: 17px 0;z-index: 4;position: relative;}
+			.inner {background:$blue;color: #FFFFFF;font-size: 18px;line-height: 1.2em;font-weight: 600;font-family: $sans_serif;padding: 17px 0;z-index: 4;position: relative;}
 			&:after {
 				content: '';
 				position: absolute;
@@ -72,7 +72,7 @@
 	}
 	.text-box {
 		h3, p {margin: 0;}
-		h3 {color: #262626;font-family: 'Poppins', sans-serif;font-size: 18px;font-weight: 600;margin-top: 30px;}
+		h3 {color: #262626;font-family: $sans_serif;font-size: 18px;font-weight: 600;margin-top: 30px;}
 		p {font-size: 16px;color: #888888;margin-top: 5px;}
 	}
 }

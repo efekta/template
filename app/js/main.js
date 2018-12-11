@@ -41,21 +41,21 @@ $(document).ready(function() {
 
 
 //Table Mobile
-if (window.innerWidth < 728) { 
-    $(".contacts-page-table-wrapp table").replaceWith( $(".contacts-page-table-wrapp table").html()
-       .replace(/<thead/gi, "<div")
-       .replace(/<th/gi, "<div")
-       .replace(/<tbody/gi, "<div")
-       .replace(/<tr/gi, "<div")
-       .replace(/<\/tr>/gi, "</div>")
-       .replace(/<td/gi, "<div")
-       .replace(/<\/td>/gi, "</div")
-       .replace(/<\/th/gi, "<\/div")
-       .replace(/<\/thead/gi, "<\/div")
-       .replace(/<\/tbody/gi, "<\/div")
-    );
-// else ()
-}
+// if (window.innerWidth < 728) { 
+//     $(".contacts-page-table-wrapp table").replaceWith( $(".contacts-page-table-wrapp table").html()
+//        .replace(/<thead/gi, "<div")
+//        .replace(/<th/gi, "<div")
+//        .replace(/<tbody/gi, "<div")
+//        .replace(/<tr/gi, "<div")
+//        .replace(/<\/tr>/gi, "</div>")
+//        .replace(/<td/gi, "<div")
+//        .replace(/<\/td>/gi, "</div")
+//        .replace(/<\/th/gi, "<\/div")
+//        .replace(/<\/thead/gi, "<\/div")
+//        .replace(/<\/tbody/gi, "<\/div")
+//     );
+// // else ()
+// }
 
 });
 

@@ -24,7 +24,7 @@
 }
 .fa_2 .factories .factories_img a {
     display: block;
-    font: 700 21px/30px "Muli", sans-serif;
+    font: 700 21px/30px $sans_serif;
     color: #fff;
     padding: 20px 0;
     position: absolute;
@@ -91,12 +91,12 @@ body i:before {
 }
 .fetures_area .fetures a {
     display: block;
-    font: 600 18px/1 "Muli", sans-serif;
+    font: 600 18px/1 $sans_serif;
     color: #000;
     // padding-top: 50px;
 }
 .fetures_area .fetures .heding {
-    font: 700 24px/35px "Muli", sans-serif;
+    font: 700 24px/35px $sans_serif;
     color: #272727;
     display: block;
     padding: 10px 0;
@@ -126,6 +126,11 @@ body i:before {
     .products-title h3 {
         color: #fff;
     }
+}
+.center-b {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 @media (max-width: 767px) {
     .fa_2 .factories {

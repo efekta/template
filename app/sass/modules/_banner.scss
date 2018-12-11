@@ -200,7 +200,7 @@
                 margin-right: 0;}
         }
         h2 {
-            font-family: 'Poppins', sans-serif;
+            font-family: $sans_serif;
             color: #ffffff;
             font-size: 45px;
             line-height: 60px;
@@ -217,7 +217,7 @@
             font-size: 18px;
             line-height: 30px;
             letter-spacing: .01em;
-            font-family: 'Rubik';
+            font-family: $sans_serif;
             width: 39%;
             margin-top: 35px;
             margin-bottom: 40px;
@@ -234,7 +234,7 @@
             width: 205px;
             height: 54px;
             line-height: 54px;
-            font-family: 'Poppins', sans-serif;
+            font-family: $sans_serif;
             font-weight: 500;
             transition: all .4s ease;
             animation-delay: 1.5s;
@@ -354,14 +354,14 @@
     font-weight: 700;
     line-height: 1.3em;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: $sans_serif;
     font-weight: 600;
     text-align: left;
     span {
         width: 100%;
         color: $blue;
         font-size: 28px;
-        font-family: 'Playfair Display', serif;
+        font-family: $serif;
         font-weight: bold;
         font-style: italic;
         background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3));
@@ -389,7 +389,7 @@
     color: #fefefe;
     font-size: 18px;
     letter-spacing: .01em;
-    font-family: 'Rubik';
+    font-family: $sans_serif;
 }
 
 .main-slider .text.dark-text {
@@ -490,7 +490,7 @@
     vertical-align: middle;
     text-align: center;
     padding: 14px 44px;
-    font-family: 'Poppins', sans-serif;
+    font-family: $sans_serif;
     font-weight: 500;
     transition: all .4s ease;
     &:before {
@@ -578,14 +578,6 @@
     .main-slider .slide-3 .theme-btn {margin-top: 50px;}
 }
 
-
-
-.inner-banner {
-    // min-height: 430px;
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // background-position: 50% 50%;
-}
 
 
 

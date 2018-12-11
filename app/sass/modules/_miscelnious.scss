@@ -1,5 +1,5 @@
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: $sans_serif;
     color: #555555;
     font-size: 16px;
     line-height: 27px;
@@ -75,7 +75,7 @@ a:active {
         color: #262626;
         font-weight: 600;
         font-size: 32px;
-        font-family: 'Poppins', sans-serif;
+        font-family: $sans_serif;
 
         &:after {
             display: inline-block;
@@ -98,7 +98,7 @@ a:active {
     }
     span {
         color: #2b78e4;
-        font-family: 'Playfair Display', serif;
+        font-family: $serif;
         font-weight: bold;
         font-style: italic;
         background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3));

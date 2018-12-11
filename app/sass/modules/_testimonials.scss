@@ -21,7 +21,7 @@
 
     h3 {
         font-size: 20px;
-        font-family: 'Poppins', sans-serif;
+        font-family: $sans_serif;
         color: #252525;
         font-weight: 600;
         margin-bottom: 15px;
@@ -70,7 +70,7 @@
                 color: #545454;
                 font-size: 18px;
                 font-weight: 600;
-                font-family: 'Poppins', sans-serif;
+                font-family: $sans_serif;
             }
 
             span {
@@ -178,7 +178,7 @@
                 color: #FFFFFF;
                 font-size: 22px;
                 font-weight: 600;
-                font-family: 'Poppins', sans-serif;
+                font-family: $sans_serif;
             }
 
             p {
@@ -420,7 +420,7 @@
                     color: #252525;
                     font-size: 24px;
                     font-weight: 600;
-                    font-family: 'Poppins', sans-serif;
+                    font-family: $sans_serif;
                     margin-bottom: 5px;
                 }
 
@@ -442,7 +442,7 @@
                 color: #73777C;
                 font-size: 15px;line-height: 27px;
                 letter-spacing: .025em;
-                font-family: 'Rubik';
+                font-family: $sans_serif;
                 margin: 0;
             }
 
