@@ -138,3 +138,14 @@ label:hover:before {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+.js-open {
+  cursor: pointer;
+  display: block;
+}
+.js-hide {
+  display: none;
+}
+.js-show {
+  display: flex;
+  justify-content: center;
+}

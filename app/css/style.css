@@ -1224,7 +1224,7 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 /************************** 
 * 13. faq styles 
 ***************************/
-.faq-style-one .sec-title { padding-top: 25px; margin-bottom: 45px; }
+.faq-style-one .sec-title { padding: 25px 0; }
 
 .faq-style-one .accrodion-grp { background: #F6F6F6; }
 
@@ -2299,6 +2299,12 @@ label:hover:before { border: 2px solid #4778d9 !important; }
 #map { width: 100%; height: 450px; }
 
 .input-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.js-open { cursor: pointer; display: block; }
+
+.js-hide { display: none; }
+
+.js-show { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 .fetures_area { padding: 40px 0 0; }
 
