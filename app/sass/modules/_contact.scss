@@ -5,14 +5,14 @@
 
 
 .contact-info-style-one {
-	background:#262626;
-	border-bottom: 3px solid #2b78e4;
+	background: #262626;
+	border-bottom: 3px solid $blue;
 	padding: 50px 0;
 	.title {
 		h3, p {margin: 0;}
 		h3 {
 			font-family: $sans_serif;font-weight: 600;color: #FFFFFF;font-size: 28px;
-			span {color: #2b78e4;}
+			span {color: $blue;}
 			&:after {
 				display: inline-block;
 				vertical-align: bottom;
@@ -23,7 +23,7 @@
 				margin-left: 15px;
 			}
 		}
-		p {font-size: 16px;line-height: 28px;color: #FFFFFF;letter-spacing: .01em;margin-top: 8px;}
+		p {font-size: 16px;line-height: 28px;color: #FFFFFF;letter-spacing: .01em;margin-top: 10px;}
 	}
 	.contact-infos {
 		.single-contact-infos {
@@ -40,7 +40,7 @@
 			.text-box {
 				padding-left: 10px;
 				h3, p {margin: 0;}
-				h3 {font-size: 28px;font-family: $sans_serif;color: #2b78e4;font-weight: 600;}
+				h3 {font-size: 28px;font-family: $sans_serif;color: $blue;font-weight: 600; margin-bottom: 20px;}
 				p {font-size: 18px;font-family: $sans_serif;color: #FFFFFF;}
 			}
 		}
@@ -59,7 +59,7 @@
 		}
 		textarea {height: 144px;margin-bottom: 25px;padding-top: 15px;}
 		label.error {display: none !important;}
-		button {display: inline-block;width: 100%;height: 45px;border: none;outline: none;background:#2b78e4;color: #FFFFFF;font-size: 16px;font-family: $sans_serif;font-weight: 600;line-height: 45px;
+		button {display: inline-block;width: 100%;height: 45px;border: none;outline: none;background:$blue;color: #FFFFFF;font-size: 16px;font-family: $sans_serif;font-weight: 600;line-height: 45px;
 			&:before {background:#252525;}
 		}
 	}
@@ -79,7 +79,7 @@
 			right:0;
 			height: 100%;
 			width: 100000px;
-			background:#2b78e4;
+			background:$blue;
 			opacity: .85;
 		}
 		.inner {
@@ -129,4 +129,29 @@
     font-size: 18px;
     font-weight: bold;
 }
+.hvr-sweep-to-right:before {
+content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $light_blue !important;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
 
+.df {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

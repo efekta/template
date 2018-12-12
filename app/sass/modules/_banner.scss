@@ -359,13 +359,13 @@
     text-align: left;
     span {
         width: 100%;
-        color: $blue;
+        color: $light_blue;
         font-size: 28px;
         font-family: $serif;
         font-weight: bold;
         font-style: italic;
-        background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3));
-        background: linear-gradient(to right, #0703f8 0%, #2196f3 100%);
+        background: -webkit-gradient(linear, left top, right top, from($blue), to($light_blue));
+        background: linear-gradient(to right, $blue 0%, $light_blue 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -482,7 +482,7 @@
 }
 
 .main-slider .theme-btn {
-    background: $blue;
+    background: $light_blue;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -494,7 +494,7 @@
     font-weight: 500;
     transition: all .4s ease;
     &:before {
-        background:#252525;
+        background:$blue;
     }
     i {margin-left: 7px;}
 }

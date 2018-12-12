@@ -19,8 +19,8 @@
                 font-family: $serif;
                 font-weight: bold;
                 font-style: italic;
-                background: -webkit-gradient(linear, left top, right top, from(#0703f8), to(#2196f3));
-                background: linear-gradient(to right, #0703f8 0%, #2196f3 100%);
+                background: -webkit-gradient(linear, left top, right top, from($blue), to($light_blue));
+                background: linear-gradient(to right, $blue 0%, $light_blue 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 color: $blue;
@@ -88,7 +88,7 @@
 
     .about-img-box {
         position: relative;
-        background: transparent url(../img/about-dots.png) 100% -120% no-repeat;
+        // background: transparent url(../img/about-dots.png) 100% -120% no-repeat;
 
         img {
             display: block;

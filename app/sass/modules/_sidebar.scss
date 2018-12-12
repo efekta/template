@@ -54,7 +54,6 @@
                     background-color: transparent;
                     outline: none;
                     border: none;
-                    color: #555555;
                     font-size: 15px;
                     position: absolute;
                     top: 50%;
@@ -175,7 +174,7 @@
             a.broucher-btn {display: block;background:#F5F5F5;font-family: $sans_serif;font-weight: 600;font-size: 16px;line-height: 45px;padding-left: 75px;color: #252525;position: relative;transition: all .4s ease;
                 i {font-size: 25px;margin-right: 13px;line-height: 45px;position: absolute;top: 50%;left: 30px;transform: translateY(-50%);}
                 + a {margin-top: 15px;}
-                &:hover {background:#252525;color: #FFFFFF;
+                &:hover {background: $blue;color: #FFFFFF;
                     i {color: #FD5912;}
                 }
             }
@@ -183,14 +182,14 @@
     }
 }
 .sidebar .single-sidebar.service-sidebar ul.service-list li:hover a, .sidebar .single-sidebar.service-sidebar ul.service-list li.active a {
-    background: $blue;
+    background: $light_blue;
     color: #fff;
 }
 .sidebar .single-sidebar.service-sidebar ul.service-list li a:before {
     content: '';
     width: 6px;
     height: 0;
-    background: #252525;
+    background: $blue;
     position: absolute;
     top: 0;
     left: 0;

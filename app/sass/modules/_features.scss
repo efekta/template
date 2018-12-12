@@ -1,15 +1,19 @@
 .feature-style-one {
 	padding: 130px 0;
 	[class*=col-md]:nth-child(1) {
-		background:#F6F6F6;
+		background:$gray;
 		padding: 0;
 	}
 	[class*=col-md]:nth-child(2) {
-		background:#2b78e4;
+		background:$light_blue;
 		padding: 0;
 	}
 	[class*=col-md]:nth-child(3) {
-		background:#262626;
+		background:$blue;
+		padding: 0;
+	}
+	[class*=col-md]:nth-child(4) {
+		background:$gray;
 		padding: 0;
 	}
 	&.overlapped-top {
