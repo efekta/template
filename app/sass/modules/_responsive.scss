@@ -256,7 +256,7 @@
 }
 .tp-mask-wrap {
     top: 50%;
-    transform: translateY(50%);
+    // transform: translateY(50%);
 }
 .service-carousel-style-two {
     margin-top: 20px;
@@ -287,5 +287,29 @@ footer.site-footer .main-footer {
 }
 .copy_up {
     font-size: 12px;
+}
+.shift-box__content {
+    padding: 20px;
+}
+.company-contacts {
+    justify-content: flex-start;
+    padding: 20px;
+}
+.sec-title span {
+    display: inline-block;
+    font-size: 22px;
+}
+.company-contacts_box {
+    margin-bottom: 0;
+}
+.header-navigation {
+    padding: 0;
+
+}
+.product-shift-box__content {
+    transform: translateY(-50%);
+}
+.feature-style-one .single-feature-style-one {
+    flex-wrap: wrap;
 }
 }

@@ -4857,7 +4857,7 @@ website:    http://www.themepunch.com
   .header-top .single-header-right-info + .single-header-right-info { margin-left: 0; }
   .header-top .single-header-right-info + .single-header-right-info { margin-left: 0; }
   .header-top .single-header-right-info { max-width: 100%; }
-  .tp-mask-wrap { top: 50%; -webkit-transform: translateY(50%); -ms-transform: translateY(50%); transform: translateY(50%); }
+  .tp-mask-wrap { top: 50%; }
   .service-carousel-style-two { margin-top: 20px; }
   .feature-style-one { padding: 20px 0; }
   .sec-pad { padding: 0; }
@@ -4867,6 +4867,13 @@ website:    http://www.themepunch.com
   .footer-widget { text-align: left; }
   .bottom-footer__list { text-align: left; }
   .sec-title h3 { text-align: left; }
-  .copy_up { font-size: 12px; } }
+  .copy_up { font-size: 12px; }
+  .shift-box__content { padding: 20px; }
+  .company-contacts { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; padding: 20px; }
+  .sec-title span { display: inline-block; font-size: 22px; }
+  .company-contacts_box { margin-bottom: 0; }
+  .header-navigation { padding: 0; }
+  .product-shift-box__content { -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+  .feature-style-one .single-feature-style-one { -ms-flex-wrap: wrap; flex-wrap: wrap; } }
 
 /*# sourceMappingURL=style.css.map */
