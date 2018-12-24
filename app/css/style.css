@@ -4710,7 +4710,7 @@ website:    http://www.themepunch.com
   .portfolio-style-two .gallery-filter ul li span { padding-left: 17px; padding-right: 17px; }
   .single-testimonial-style-two p br { display: none; }
   .fact-counter-section .single-progress-bar .progress-scale { width: 200px; }
-  .contact-info-style-one .contact-infos { padding-left: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+  .contact-info-style-one .contact-infos { padding-left: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
   .contact-info-style-one .contact-infos .single-contact-infos + .single-contact-infos { margin-left: 20px; }
   .header-top.home-three .logo { padding-bottom: 0; }
   .single-service-style-four .img-box .box .content i { font-size: 37px; }
@@ -4852,5 +4852,21 @@ website:    http://www.themepunch.com
   .sec-title p { width: 100%; }
   .contact-page-content .sec-title.text-center h3 { font-size: 28px; }
   .contact-page-content .sec-title.text-center span { font-size: 28px; display: block; } }
+
+@media (max-width: 480px) { .header-top .logo a { display: inline-block; }
+  .header-top .single-header-right-info + .single-header-right-info { margin-left: 0; }
+  .header-top .single-header-right-info + .single-header-right-info { margin-left: 0; }
+  .header-top .single-header-right-info { max-width: 100%; }
+  .tp-mask-wrap { top: 50%; -webkit-transform: translateY(50%); -ms-transform: translateY(50%); transform: translateY(50%); }
+  .service-carousel-style-two { margin-top: 20px; }
+  .feature-style-one { padding: 20px 0; }
+  .sec-pad { padding: 0; }
+  .about-style-one .about-content p { margin: 0; }
+  .sec-title { margin: 0; }
+  footer.site-footer .main-footer { padding: 0; }
+  .footer-widget { text-align: left; }
+  .bottom-footer__list { text-align: left; }
+  .sec-title h3 { text-align: left; }
+  .copy_up { font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,24 @@
+@media (max-height: 700px) {
+  .coming-soon-block {
+    height: 1000px; } }
+
 @media only screen and (max-width: 767px) {
   .contact-info-style-one .title h3:after {
     display: none; }
-  .single-contact-infos .or {
-    display: none; } }
+  .contact-info-style-one .contact-infos .single-contact-infos.or {
+    display: none; }
+  .contact-info-style-one .title {
+    margin-bottom: 20px;
+    text-align: center; }
+  .single-contact-infos {
+    text-align: center; } }
+
+@media (max-width: 480px) {
+  .header-top .logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 30%; } }
