@@ -38,3 +38,18 @@ video {
 	    border-left: 4px solid $blue;
 	}
 }
+.info-content-ico p {
+	position: relative;
+	padding-left: 30px;
+}
+.info-content-ico p:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	background: #186496;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	transform: translateY(-50%);
+}

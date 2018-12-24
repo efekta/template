@@ -21,14 +21,13 @@
   justify-content: center;
   align-items: center;
   border: 2px solid $blue;
-// margin: auto;
-// padding: 20px;
-// text-align: center;
+  // padding: 25px;
+
 }
 .company-contacts p {
 	// display: inline-block;
 	// vertical-align: middle;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 .about_map_contacts {
 	width: 100%;
@@ -38,7 +37,10 @@
     padding: 0;
 }
 .contact-page form {
-	text-align: center;
+	text-align: left;
+  h3 {
+    text-align: center;
+  }
 }
 .inp-wrap {
 	width: 48%;

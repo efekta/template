@@ -119,10 +119,11 @@
     color: #fff;
     font-size: 14px;
 }
-.contact-info-style-one .contact-infos .single-contact-infos .text-box p {
+.contact-info-style-one .contact-infos .single-contact-infos .text-box a {
 	font-size: 24px;
     font-family: $sans_serif;
     font-weight: 600;
+    color: #fff;
 }
 .or span {
     color: #fff;
@@ -154,4 +155,10 @@ content: "";
 	display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+.text-box a {
+	font-size: 24px;
+    font-family: $sans_serif;
+    font-weight: 600;
+    color: #fff;
 }

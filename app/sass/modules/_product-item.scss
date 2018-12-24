@@ -7,6 +7,7 @@
 
 .main-banner-380 {
     min-height: 380px;
+    margin-top: -90px;
 }
 
 .main-banner-grad {
@@ -15,15 +16,15 @@
 .shift-box {
     padding-bottom: 25px;
 }
-.sidebar {
-    padding-top: 30px;
-}
+// .sidebar {
+//     padding-top: 30px;
+// }
 .shift-box-product .sidebar-menu {
     margin-top: 200px;
     padding-left: 0;
 }
 .shift-box__content {
-    margin: -200px auto 0;
+    margin: -165px auto 0;
     background: #fff;
     padding: 30px;
     position: relative;
@@ -36,13 +37,17 @@
 .breadcumb {
 	margin-bottom: 20px;
 }
+.shift-box-article h1 {
+    margin-bottom: 20px;
+}
 ul.breadcumb li {
     display: inline-block;
     vertical-align: middle;
 }
 ul.breadcumb a, ul.breadcumb span {
     color: $blue;
-    font-size: 18px;
+    font-size: 15px;
+    padding: 0 10px;
 }
 .shift-box-article p {
 	text-transform: uppercase;
@@ -54,7 +59,8 @@ ul.breadcumb a, ul.breadcumb span {
 	width: 100%;
 }
 table thead {
-	border-top: 1px solid #252525;
+	background: #25a3d2;
+    color: #fff;
 }
 @media (max-width: 991px) {
 	.shift-box__content {

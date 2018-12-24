@@ -71,7 +71,7 @@
 }
 
 .contacts-page-table-wrapp table>tbody>tr:nth-of-type(odd) {
-    background-color: #d6d6d6;
+    background-color: #F5F5F5;
 }
 .contacts-page-table-wrapp table>caption+thead>tr:first-child>td,
 .contacts-page-table-wrapp table>caption+thead>tr:first-child>th,
@@ -91,11 +91,11 @@
 .contacts-page-table-wrapp table>tfoot>tr>th, 
 .contacts-page-table-wrapp table>thead>tr>td, 
 .contacts-page-table-wrapp table>thead>tr>th {
-    border: 1px solid #252525;
+    border: none;
 }
 .contacts-page-table-wrapp table>thead>tr>th {
     vertical-align: bottom;
-    border-bottom: 1px solid #252525;
+    border: none;
 }
 .contacts-page-table-wrapp table>tbody>tr>td,
 .contacts-page-table-wrapp table>tbody>tr>th,
@@ -106,7 +106,7 @@
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: middle;
-    border-top: 1px solid #252525;
+    // border-top: 1px solid #252525;
 }
 .contacts-page-table-wrapp table th {
     text-align: left;
