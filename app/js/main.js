@@ -56,13 +56,13 @@ $(document).ready(function() {
 
 });
 
-// var service_sidebar_accrodion = $('.service-list li')
+var service_sidebar_accrodion = $('.service-list ul')
 
-//   $(window).resize(function(){
-//     var windowWidth = $('body').innerWidth();
-//     if(windowWidth < 910){$(".service-list li").addClass('service-sidebar_hide');}
-//     else{$(".service-sidebar").removeClass('service-sidebar_hide');}
-//   });
+  $(window).resize(function(){
+    var windowWidth = $('body').innerWidth();
+    if(windowWidth < 910){$(".service-list li").addClass('service-sidebar_hide');}
+    else{$(".service-sidebar").removeClass('service-sidebar_hide');}
+  });
 
 // $('.accordion-item:not(:first) .content').hide();
 
