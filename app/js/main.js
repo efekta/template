@@ -56,7 +56,24 @@ $(document).ready(function() {
 
 });
 
+// var service_sidebar_accrodion = $('.service-list li')
 
+//   $(window).resize(function(){
+//     var windowWidth = $('body').innerWidth();
+//     if(windowWidth < 910){$(".service-list li").addClass('service-sidebar_hide');}
+//     else{$(".service-sidebar").removeClass('service-sidebar_hide');}
+//   });
+
+// $('.accordion-item:not(:first) .content').hide();
+
+// $(".accordion-item").click(function() {
+//   var self = $(this);
+//     $('.content').hide();
+//     $('.content', self).show();
+//     $('.hidden, .show').toggle();
+//     $('.hidden', self).show();
+//     $('.show', self).hide();
+// });
 
 
 

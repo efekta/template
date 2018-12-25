@@ -240,7 +240,7 @@
         display: block;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 910px) {
 .header-top .logo a {
     display: inline-block;
 }
@@ -256,7 +256,7 @@
 }
 .tp-mask-wrap {
     top: 50%;
-    // transform: translateY(50%);
+        transform: translateY(50%) !important;
 }
 .service-carousel-style-two {
     margin-top: 20px;
@@ -311,5 +311,8 @@ footer.site-footer .main-footer {
 }
 .feature-style-one .single-feature-style-one {
     flex-wrap: wrap;
+}
+.mb {
+    font-weight: bold;
 }
 }

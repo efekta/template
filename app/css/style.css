@@ -65,7 +65,7 @@ ul { padding: 0; margin: 0; list-style-type: none; }
 
 a { text-decoration: none; }
 
-h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
+h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 img { max-width: 100%; width: auto; height: auto; }
 
@@ -195,7 +195,7 @@ a:hover, a:visited, a:focus, a:active { text-decoration: none !important; outlin
 
 .sec-title p { color: #555555; margin: 0 auto; font-size: 18px; line-height: 28px; }
 
-.sec-title span { color: #186496; font-family: "Lobster", cursive; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#186496), to(#25a3d2)); background: -webkit-linear-gradient(left, #186496 0%, #25a3d2 100%); background: -o-linear-gradient(left, #186496 0%, #25a3d2 100%); background: linear-gradient(to right, #186496 0%, #25a3d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; padding-right: 23px; }
+.sec-title span { color: #186496; font-family: "Lobster", cursive; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#186496), to(#25a3d2)); background: -webkit-linear-gradient(left, #186496 0%, #25a3d2 100%); background: -o-linear-gradient(left, #186496 0%, #25a3d2 100%); background: linear-gradient(to right, #186496 0%, #25a3d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; padding-right: 10px; }
 
 .sec-title.light h3 { color: #fff; }
 
@@ -795,7 +795,7 @@ footer.site-footer .bottom-footer p { margin: 0; color: #555555; font-size: 15px
 
 .i-home { font-size: 35px; color: #186496; }
 
-footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-height: 25px; margin-left: 17px; }
+footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-height: 25px; }
 
 .bottom-footer__list { text-align: center; margin-bottom: 15px; }
 
@@ -1911,7 +1911,7 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .about-style-one .about-content h3 span { font-family: "Lobster", cursive; font-weight: bold; font-style: italic; background: -webkit-gradient(linear, left top, right top, from(#186496), to(#25a3d2)); background: -webkit-linear-gradient(left, #186496 0%, #25a3d2 100%); background: -o-linear-gradient(left, #186496 0%, #25a3d2 100%); background: linear-gradient(to right, #186496 0%, #25a3d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: #186496; }
 
-.about-style-one .about-content h3:after { display: inline-block; vertical-align: middle; content: ''; width: 38px; height: 2px; background: #888888; margin-left: 15px; margin-top: 18px; }
+.about-style-one .about-content h3:after { display: inline-block; vertical-align: middle; content: ''; width: 38px; height: 2px; background: #888888; margin-top: 18px; }
 
 .about-style-one .about-content p { font-size: 16px; line-height: 27px; color: #555555; margin-top: 35px; margin-bottom: 30px; }
 
@@ -2431,6 +2431,10 @@ table thead { background: #25a3d2; color: #fff; }
 .shift-box__content .feature-style-one { padding: 30px 0; }
 
 .text-box .mb { margin-left: 10px; }
+
+.service-sidebar_hide { display: none; }
+
+.service-sidebar_show { display: block; }
 
 .info-page-title { text-align: left; margin-bottom: 0px; }
 
@@ -4853,11 +4857,11 @@ website:    http://www.themepunch.com
   .contact-page-content .sec-title.text-center h3 { font-size: 28px; }
   .contact-page-content .sec-title.text-center span { font-size: 28px; display: block; } }
 
-@media (max-width: 480px) { .header-top .logo a { display: inline-block; }
+@media (max-width: 910px) { .header-top .logo a { display: inline-block; }
   .header-top .single-header-right-info + .single-header-right-info { margin-left: 0; }
   .header-top .single-header-right-info + .single-header-right-info { margin-left: 0; }
   .header-top .single-header-right-info { max-width: 100%; }
-  .tp-mask-wrap { top: 50%; }
+  .tp-mask-wrap { top: 50%; -webkit-transform: translateY(50%) !important; -ms-transform: translateY(50%) !important; transform: translateY(50%) !important; }
   .service-carousel-style-two { margin-top: 20px; }
   .feature-style-one { padding: 20px 0; }
   .sec-pad { padding: 0; }
@@ -4874,6 +4878,7 @@ website:    http://www.themepunch.com
   .company-contacts_box { margin-bottom: 0; }
   .header-navigation { padding: 0; }
   .product-shift-box__content { -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
-  .feature-style-one .single-feature-style-one { -ms-flex-wrap: wrap; flex-wrap: wrap; } }
+  .feature-style-one .single-feature-style-one { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+  .mb { font-weight: bold; } }
 
 /*# sourceMappingURL=style.css.map */
