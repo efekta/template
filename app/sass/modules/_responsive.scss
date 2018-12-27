@@ -14,9 +14,9 @@
     .header-top .single-header-right-info .text-box {text-align: left;}
     .header-top.home-three .logo {padding-bottom: 0;}
     .header.header-home-three .header-navigation .container .right-side-box a.rqa-btn {border-bottom-width: 4px;}
-    .contact-info-style-one .contact-infos .single-contact-infos.or {
-        display: none;
-    }
+    // .contact-info-style-one .contact-infos .single-contact-infos.or {
+    //     display: none;
+    // }
     .contact-info-style-one {
         text-align: center;
         .title {
@@ -348,11 +348,21 @@ footer.site-footer .main-footer {
 
 
 @media (min-device-width: 768px) and (max-device-width: 1200px) {
+    .navbar > .container {
+        width: 100%;
+        // padding: 0;
+    }
+    .header-navigation {
+        padding: 0;
+    }
+    .header-top .logo a {
+        width: 100%;
+    }
   .header-top .logo {
-    width: 40%;
+    width: 15%;
   }
   .header-top .header-right-info {
-    width: 60%;
+    width: 75%;
   }
   .header-top .logo {
     padding-top: 30px;

@@ -737,7 +737,7 @@ body.active-preloader-ovh { overflow: hidden; }
 ***************************/
 footer.site-footer.fixed-footer { position: fixed; bottom: 0; left: 0; width: 100%; z-index: 100; }
 
-footer.site-footer .main-footer { padding-top: 95px; padding-bottom: 60px; }
+footer.site-footer .main-footer { padding-top: 45px; padding-bottom: 60px; }
 
 footer.site-footer .footer-widget h3, footer.site-footer .footer-widget p, footer.site-footer .footer-widget ul { margin: 0; padding: 0; list-style: none; }
 
@@ -1342,7 +1342,7 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 /************************** 
 * 15. features styles 
 ***************************/
-.feature-style-one { padding: 130px 0; }
+.feature-style-one { padding: 65px 0; }
 
 .feature-style-one [class*=col-md]:nth-child(1) { background: #e5e5e5; padding: 0; }
 
@@ -4710,7 +4710,6 @@ website:    http://www.themepunch.com
   .header-top .single-header-right-info .text-box { text-align: left; }
   .header-top.home-three .logo { padding-bottom: 0; }
   .header.header-home-three .header-navigation .container .right-side-box a.rqa-btn { border-bottom-width: 4px; }
-  .contact-info-style-one .contact-infos .single-contact-infos.or { display: none; }
   .contact-info-style-one { text-align: center; }
   .contact-info-style-one .title { margin-bottom: 20px; }
   .contact-info-style-one .single-contact-infos .text-box h3.mb { margin-bottom: 20px; } }
@@ -4896,8 +4895,11 @@ website:    http://www.themepunch.com
   .shift-box__content .feature-style-one { padding-bottom: 0; }
   .bottom-footer .sec-title { margin-bottom: 30px; } }
 
-@media (min-device-width: 768px) and (max-device-width: 1200px) { .header-top .logo { width: 40%; }
-  .header-top .header-right-info { width: 60%; }
+@media (min-device-width: 768px) and (max-device-width: 1200px) { .navbar > .container { width: 100%; }
+  .header-navigation { padding: 0; }
+  .header-top .logo a { width: 100%; }
+  .header-top .logo { width: 15%; }
+  .header-top .header-right-info { width: 75%; }
   .header-top .logo { padding-top: 30px; padding-bottom: 55px; position: relative; }
   .header-top .header-right-info { padding: 34px 0; } }
 
