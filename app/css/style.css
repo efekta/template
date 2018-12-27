@@ -1505,6 +1505,10 @@ footer.site-footer .footer-widget p > a { font-size: 15px; color: #888888; line-
 
 .contact-info-style-one .contact-infos .single-contact-infos .text-box h3 { color: #fff; }
 
+.single-contact-infos .or { margin: 0 10px; }
+
+.contact-infos { text-align: center; }
+
 /************************** 
 * 17. inner banner styles 
 ***************************/
@@ -4903,11 +4907,7 @@ website:    http://www.themepunch.com
   .header-top .header-right-info { padding: 34px 0; }
   .company-contacts { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; } }
 
-@media (max-width: 1200px) { .sec-title h3:after, .about-style-one .about-content h3:after { display: none; } }
-
-@media (max-width: 587px) { .contact-info-style-one .contact-infos .single-contact-infos { width: 100%; display: block; }
-  .contact-info-style-one .contact-infos .single-contact-infos { display: block; text-align: center; width: 100%; }
-  .contact-info-style-one .contact-infos .single-contact-infos .icon-box, .contact-info-style-one .contact-infos .single-contact-infos .text-box { display: inline-block; }
-  .contact-info-style-one .contact-infos .single-contact-infos + .single-contact-infos { margin-left: 0px; margin-right: 0px; } }
+@media (max-width: 1200px) { .sec-title h3:after, .about-style-one .about-content h3:after { display: none; }
+  .contact-info-style-one .title h3:after { display: none; } }
 
 /*# sourceMappingURL=style.css.map */

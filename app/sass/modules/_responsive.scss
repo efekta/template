@@ -385,27 +385,38 @@ footer.site-footer .main-footer {
 @media (max-width: 1200px) {
    .sec-title h3:after, .about-style-one .about-content h3:after {
     display: none;
+}
+.contact-info-style-one .title h3:after {
+    display: none;
 } 
 }
-@media (max-width: 587px) {
+// .single-contact-infos .or {
+    // display: block;
+    // margin: 0 10px;
+// }
+// .contact-info-style-one .contact-infos .single-contact-infos + .single-contact-infos {
+//     // margin-left: 0;
+// }
 
-.contact-info-style-one .contact-infos .single-contact-infos {
-    width: 100%;
-    display: block;
-}
-.contact-info-style-one .contact-infos .single-contact-infos {
-    display: block;
-    text-align: center;
-    width: 100%;
-}
-.contact-info-style-one .contact-infos .single-contact-infos .icon-box, .contact-info-style-one .contact-infos .single-contact-infos .text-box {
-    display: inline-block;
-}
-.contact-info-style-one .contact-infos .single-contact-infos + .single-contact-infos {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-}
+// @media (max-width: 587px) {
+
+// .contact-info-style-one .contact-infos .single-contact-infos {
+//     width: 100%;
+//     display: block;
+// }
+// .contact-info-style-one .contact-infos .single-contact-infos {
+//     display: block;
+//     text-align: center;
+//     width: 100%;
+// }
+// .contact-info-style-one .contact-infos .single-contact-infos .icon-box, .contact-info-style-one .contact-infos .single-contact-infos .text-box {
+//     display: block;
+// }
+// .contact-info-style-one .contact-infos .single-contact-infos + .single-contact-infos {
+//     // margin-left: 0px;
+//     // margin-right: 0px;
+// }
+// }
 
 
 
