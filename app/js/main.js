@@ -55,14 +55,74 @@ $(document).ready(function() {
 
 
 });
+$(".tab_item").not(":first").hide();
+$(".wrapper-tab .tab").click(function() {
+  $(".wrapper-tab .tab").removeClass("tab-active").eq($(this).index()).addClass("tab-active");
+  $(".tab_item").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("tab-active");
+$('.FormAjax').submit(function(){       
+      var method = $(this).attr('method');
+      var action = $(this).attr('action');
+      var id = $(this).attr('id');
+      var form_data = $(this).serialize();
+      var formContent = $(this);
+      
+      $(this).addClass('opacity');
+      $(this).append('<div class="preloader-form"></div>');
+      
+      // console.log(form_data);
+      
+      $.ajax({
+        url: action,
+        type: method,
+        method: method,
+        data: form_data,        
+        dataType: 'html',
+        cache: false,
+        // contentType: false,
+        processData: false,        
+        success: function (data) {
+            
+          
+            var form_content = $(data).find("#" + id).html();                     
 
-var service_sidebar_accrodion = $('.service-list ul')
+            // console.log(form_content);
+            
+            formContent.fadeOut('fast', function() {
+                formContent.html(form_content);
+                formContent.fadeIn('fast');
+            });
 
-  $(window).resize(function(){
-    var windowWidth = $('body').innerWidth();
-    if(windowWidth < 910){$(".service-list li").addClass('service-sidebar_hide');}
-    else{$(".service-sidebar").removeClass('service-sidebar_hide');}
-  });
+            $("#" + id).removeClass('opacity');
+
+          // if($(data).find('#' + id + ' div[data-type="success"]').length && (id!='orderForm1' && id!='orderForm2')){
+          //   setTimeout(function(){              
+          //       $(document).find('#' + id + ' div[data-type="success"]').fadeOut( "slow", function() {
+          //           setTimeout(function(){
+          //               $(document).find('#' + id + ' button[data-dismiss="modal"]').trigger( "click" );
+          //           }, 1000);           
+          //       });
+          //   }, 2000);            
+          // }
+        },
+        error: function( jqXHR, textStatus ){
+            // console.log( "Request failed: " + textStatus );
+        },
+        complete: function(msg){
+            // console.log( "complete: " + msg );
+        }
+      });
+
+      return false;
+    });
+
+// var service_sidebar_accrodion = $('.service-list ul')
+
+//   $(window).resize(function(){
+//     var windowWidth = $('body').innerWidth();
+//     if(windowWidth < 910){$(".service-list li").addClass('service-sidebar_hide');}
+//     else{$(".service-sidebar").removeClass('service-sidebar_hide');}
+//   });
 
 // $('.accordion-item:not(:first) .content').hide();
 

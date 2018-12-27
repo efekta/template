@@ -787,8 +787,9 @@
                 </button>
             </header>
             <div class="tab_content">
-                <div class="tab-items">
-                    <form action="#" method="POST" class="">
+                <div class="tab_items">
+
+                    <form action="#" method="POST" class="consulForm1" id="form_on">
                         <div class="tab_item modal-body">
                             <div class="form-body">
                                 <div class="form-inner modal-form-inner">
@@ -807,7 +808,6 @@
                                 </div>
                             </div>
                             
-                            
                             <div class="security">
                                 <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
                             </div>
@@ -816,8 +816,13 @@
                                 <label for="checked_iab">Я даю согласие на обработку моих персональных данных</label>
                             </div>
                         </div>
+                        <footer class="modal-footer">
+                            <button id="on" class="btn btn-modal-footer" type="submit">Заказать</button>
+                        </footer>
                     </form>
-                    <form action="#" method="POST" class="">
+
+
+                    <form action="#" method="POST" class="consulForm2" id="form_tw">
                         <div class="tab_item modal-body">
                             <div class="form-body">
                                 <div class="form-inner modal-form-inner">
@@ -848,9 +853,10 @@
                             </div>
                         </div>
                         <footer class="modal-footer">
-                            <button class="btn btn-modal-footer" type="submit">Заказать</button>
+                            <button id="tw" class="btn btn-modal-footer" type="submit">Заказать</button>
                         </footer>
                     </form>
+
                 </div>
             </div>
         </div>
