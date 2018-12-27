@@ -323,9 +323,9 @@ footer.site-footer .main-footer {
 .feature-style-one .single-feature-style-one .text-box h3 {
     font-size: 20px;
 }
-.sec-title h3:after, .about-style-one .about-content h3:after {
-    display: none;
-}
+// .sec-title h3:after, .about-style-one .about-content h3:after {
+//     display: none;
+// }
  h1 {
     font-size: 28px;
  }
@@ -372,8 +372,12 @@ footer.site-footer .main-footer {
 .header-top .header-right-info {
     padding: 34px 0;
 }
-
-
+.sec-title h3:after, .about-style-one .about-content h3:after {
+    display: none;
+}
+.company-contacts {
+    justify-content: flex-start;
+}
 }
 
 
