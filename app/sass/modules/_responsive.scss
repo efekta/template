@@ -418,7 +418,20 @@ footer.site-footer .main-footer {
 // }
 // }
 
-
+@media (max-width: 587px) {
+.contact-info-style-one .contact-infos .single-contact-infos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.contact-info-style-one .contact-infos .single-contact-infos + .single-contact-infos {
+    margin-left: 0;
+}
+.contact-info-style-one .contact-infos .single-contact-infos .text-box {
+    padding-left: 0;
+    margin-left: 20px;
+}
+}
 
 
 
