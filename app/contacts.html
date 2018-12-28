@@ -453,45 +453,40 @@
     </div>
 </footer><!-- /.site-footer -->
 
-    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content wrapper-tab">
-                <header class="modal-header">
-                    <div class="title-box">
-                        <div class="modal-title">Заказать консультацию</div>
-                    </div>
-                    <div class="tabs">
-                        <span class="tab tab-active">По телефону</span>
-                        <span class="tab">По E-mail</span>
-                    </div>
-                    <button class="close" type="button" data-dismiss="modal" alia-label="Close">
-                        <span aria-hidden="true"><i class="fal fa-times"></i></span>
-                    </button>
-                </header>
-                <div class="tab_content">
-                    <div class="tab-items">
-                        <form action="#" method="POST" class="">
-                            <div class="tab_item modal-body">
-                                <div class="form-body">
-                                    <div class="form-inner modal-form-inner">
-                                        <label>
-                                            <i class="fa fa-user input-box-ico"></i>
-                                            <input type="text" placeholder="Ваше имя" name="name">
-                                            
-                                            <span class="error">Это поле обязательно для заполнения.</span>
-                                        </label>
-                                    </div>
-                                    <div class="form-inner modal-form-inner">
-                                        <label>
-                                            <i class="fa fa-phone input-box-ico transform-ico"></i>
-                                            <input type="text" placeholder="8(888)888-88-88" class="phone" name="phone2">
-                                            
-                                            <span class="error">Это поле обязательно для заполнения.</span>
-                                        </label>
-                                    </div>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content wrapper-tab">
+            <header class="modal-header">
+                <div class="title-box">
+                    <div class="modal-title">Заказать консультацию</div>
+                </div>
+                <div class="tabs">
+                    <span class="tab tab-active">По телефону</span>
+                    <span class="tab">По E-mail</span>
+                </div>
+                <button class="close" type="button" data-dismiss="modal" alia-label="Close">
+                    <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                </button>
+            </header>
+            <div class="tab_content">
+                <div class="tab_items">
+                    <form action="#" method="POST" class="consulForm1" id="form_on">
+                        <div class="tab_item modal-body">
+                            <div class="form-body">
+                                <div class="form-inner modal-form-inner">
+                                    <label>
+                                        <input type="text" placeholder="Ваше имя" name="name">
+                                        <i class="fa fa-user input-box-ico"></i>
+                                        <span class="error">Это поле обязательно для заполнения.</span>
+                                    </label>
                                 </div>
-                                
-                                
+                                <div class="form-inner modal-form-inner">
+                                    <label>
+                                        <input type="text" placeholder="8(888)888-88-88" class="phone" name="phone2">
+                                        <i class="fa fa-phone input-box-ico transform-ico"></i>
+                                        <span class="error">Это поле обязательно для заполнения.</span>
+                                    </label>
+                                </div>
                                 <div class="security">
                                     <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
                                 </div>
@@ -500,31 +495,33 @@
                                     <label for="checked_iab">Я даю согласие на обработку моих персональных данных</label>
                                 </div>
                             </div>
-                        </form>
-                        <form action="#" method="POST" class="">
-                            <div class="tab_item modal-body">
-                                <div class="form-body">
-                                    <div class="form-inner modal-form-inner">
-                                        <label>
-                                             <i class="fa fa-user input-box-ico"></i>
-                                            <input type="text" placeholder="Ваше имя" name="name">
-                                           
-                                            <span class="error">Это поле обязательно для заполнения.</span>
-                                        </label>
-                                    </div>
-                                    <div class="form-inner modal-form-inner">
-                                        <label>
-                                            <i class="fa fa-envelope input-box-ico"></i>
-                                            <input type="text" placeholder="E-mail" name="email">
-                                            
-                                            <span class="error">Это поле обязательно для заполнения.</span>
-                                        </label>
-                                    </div>
+                            <footer class="modal-footer">
+                                <button id="on" class="btn btn-modal-footer" type="submit">Заказать</button>
+                            </footer>
+                        </div>
+                    </form>
+                    <form action="#" method="POST" class="consulForm2" id="form_tw">
+                        <div class="tab_item modal-body">
+                            <div class="form-body">
+                                <div class="form-inner modal-form-inner">
+                                    <label>
+                                        <input type="text" placeholder="Ваше имя" name="name">
+                                        <i class="fa fa-user input-box-ico"></i>
+                                        <span class="error">Это поле обязательно для заполнения.</span>
+                                    </label>
                                 </div>
+                                <div class="form-inner modal-form-inner">
+                                    <label>
+                                        <input type="text" placeholder="E-mail" name="email">
+                                        <i class="fa fa-envelope input-box-ico"></i>
+                                        <span class="error">Это поле обязательно для заполнения.</span>
+                                    </label>
+                                </div>
+
                                  <div class="form-inner modal-form-inner modal-form-inner-a">
                                     <textarea name="message" id="modal_user_message" rows="10" placeholder="Ваш вопрос"></textarea>
                                 </div>
-                                
+                            
                                 <div class="security">
                                     <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
                                 </div>
@@ -534,94 +531,95 @@
                                 </div>
                             </div>
                             <footer class="modal-footer">
-                                <button class="btn btn-modal-footer" type="submit">Заказать</button>
+                                <button id="tw" class="btn btn-modal-footer" type="submit">Заказать</button>
                             </footer>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <section class="hidden-sidebar side-navigation">
-        <a href="#" class="close-button side-navigation-close-btn">
-            <i class="far fa-times"></i>
-        </a><!-- /.close-button -->
-        <div class="sidebar-content">
-            <div class="top-content">
-                <a href="index.html"><img src="img/logo.png" alt="Awesome Image"/></a>
-            </div><!-- /.top-content -->
-            <nav class="nav-menu middle-content">
-                <ul class="navigation-box">
-                    <li class="current"> 
-                        <a href="index.html">Главная <span class="subnav-toggler fa fa-caret-down"></span></a> 
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Home Page One</a></li>
-                            <li><a href="index2.html">Home Page Two</a></li>
-                            <li><a href="index3.html">Home Page Three</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li> <a href="about.html">Продукция</a> </li>
-                    <li> 
-                        <a href="service.html">Доставка <span class="subnav-toggler fa fa-caret-down"></span></a> 
-                        <ul class="sub-menu">
-                            <li> <a href="single-service.html">Chemical Research</a> </li>
-                            <li><a href="single-service.html">Fuel & Gas Management</a></li>
-                            <li><a href="single-service.html">Eco & Bio Power</a></li>
-                            <li><a href="single-service.html">Mechanical Engineering</a></li>
-                            <li><a href="single-service.html">Petroleum Refinery</a></li>
-                            <li><a href="single-service.html">Power & Energy Sector</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li> 
-                        <a href="project.html">Оплата <span class="subnav-toggler fa fa-caret-down"></span></a> 
-                        <ul class="sub-menu">
-                            <li> <a href="single-project.html">Project Details</a> </li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li> 
-                        <a href="#">О компании <span class="subnav-toggler fa fa-caret-down"></span></a> 
-                        <ul class="sub-menu">
-                            <li> <a href="404.html">Error 404</a> </li>
-                            <li> <a href="coming-soon.html">Coming Soon</a> </li>
-                            <li> <a href="project.html">Projects</a> </li>
-                            <li> <a href="single-project.html">Project Details</a> </li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>   
-                        </ul><!-- /.sub-menu -->
-                    </li>
-                    <li> 
-                    <li> <a href="contact.html">Контакты</a> </li>
-                </ul>
-            </nav><!-- /.nav-menu -->
-            <div class="bottom-content">
-                <div class="social">
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                   <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-google-plus-g"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-behance"></i>
-                    </a>
+<section class="hidden-sidebar side-navigation">
+    <a href="#" class="close-button side-navigation-close-btn">
+        <i class="far fa-times"></i>
+    </a><!-- /.close-button -->
+    <div class="sidebar-content">
+        <div class="top-content">
+            <a href="index.html"><img src="img/logowhite.png" alt="Awesome Image"/></a>
+        </div><!-- /.top-content -->
+        <nav class="nav-menu middle-content">
+            <ul class="navigation-box">
+                <li class="current"> 
+                    <a href="index.html">Главная <span class="subnav-toggler fa fa-caret-down"></span></a> 
+                    <ul class="sub-menu">
+                        <li><a href="index.html">Home Page One</a></li>
+                        <li><a href="index2.html">Home Page Two</a></li>
+                        <li><a href="index3.html">Home Page Three</a></li>
+                    </ul><!-- /.sub-menu -->
+                </li>
+                <li> <a href="about.html">Продукция</a> </li>
+                <li> 
+                    <a href="service.html">Доставка <span class="subnav-toggler fa fa-caret-down"></span></a> 
+                    <ul class="sub-menu">
+                        <li> <a href="single-service.html">Chemical Research</a> </li>
+                        <li><a href="single-service.html">Fuel & Gas Management</a></li>
+                        <li><a href="single-service.html">Eco & Bio Power</a></li>
+                        <li><a href="single-service.html">Mechanical Engineering</a></li>
+                        <li><a href="single-service.html">Petroleum Refinery</a></li>
+                        <li><a href="single-service.html">Power & Energy Sector</a></li>
+                    </ul><!-- /.sub-menu -->
+                </li>
+                <li> 
+                    <a href="project.html">Оплата <span class="subnav-toggler fa fa-caret-down"></span></a> 
+                    <ul class="sub-menu">
+                        <li> <a href="single-project.html">Project Details</a> </li>
+                    </ul><!-- /.sub-menu -->
+                </li>
+                <li> 
+                    <a href="#">О компании <span class="subnav-toggler fa fa-caret-down"></span></a> 
+                    <ul class="sub-menu">
+                        <li> <a href="404.html">Error 404</a> </li>
+                        <li> <a href="coming-soon.html">Coming Soon</a> </li>
+                        <li> <a href="project.html">Projects</a> </li>
+                        <li> <a href="single-project.html">Project Details</a> </li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>   
+                    </ul><!-- /.sub-menu -->
+                </li>
+                <li> 
+                <li> <a href="contact.html">Контакты</a> </li>
+            </ul>
+        </nav><!-- /.nav-menu -->
+        <div class="bottom-content">
+            <div class="social">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+               <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-behance"></i>
+                </a>
+            </div>
+            <div class="copy">
+                <div class="container">
+                    <span>&quot;О Хим - Транс - Трейд&quot;</span>
+                    <span><i class="fal fa-copyright"></i></span>
+                    <span class="copy_up">2018 Ростов-на-Дону</span>
                 </div>
-                <div class="copy">
-                    <div class="container">
-                        <span>&quot;ООО Хим - Транс - Трейд&quot;</span>
-                        <span><i class="fal fa-copyright"></i></span>
-                        <span class="copy_up">2018 Ростов-на-Дону</span>
-                    </div>
-                </div>
-            </div><!-- /.bottom-content -->
-        </div><!-- /.sidebar-content -->
-    </section><!-- /.hidden-sidebar -->
+            </div>
+        </div><!-- /.bottom-content -->
+    </div><!-- /.sidebar-content -->
+</section><!-- /.hidden-sidebar -->
 
     <div class="search_area zoom-anim-dialog mfp-hide" id="test-search">
         <div class="search_box_inner">
