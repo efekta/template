@@ -45,15 +45,6 @@ $(document).ready(function() {
 //   document.querySelectorAll('.contacts-page-table-wrapp > table')
 // }
 
-
-
-//Contacts Page Table
- $('.js-open').on('click', function(e) {
-    // e.preventDefault();
-    $('.js-hide').toggleClass('js-show');
-})
-
-
 });
 $(".tab_item").not(":first").hide();
 $(".wrapper-tab .tab").click(function() {
@@ -116,11 +107,15 @@ $('.FormAjax').submit(function(){
       return false;
     });
 
- $('#service-list_show').on('click', function() {
+ $('#service-list_show, .js-open').on('click', function() {
     // e.preventDefault();
-    $('.service-list').slideToggle("slow");
+    $('.service-list, .js-hide').slideToggle("slow");
 });
-
+//Contacts Page Table
+//  $('.js-open').on('click', function(e) {
+//     // e.preventDefault();
+//     $('.js-hide').toggleClass('js-show');
+// })
 // var service_sidebar_accrodion = $('.service-list ul')
 
 //   $(window).resize(function(){
