@@ -116,10 +116,10 @@ $('.FormAjax').submit(function(){
       return false;
     });
 
-//  $('#service-list_show').on('click', function() {
-//     // e.preventDefault();
-//     $('.service-list li').show();
-// });
+ $('#service-list_show').on('click', function() {
+    // e.preventDefault();
+    $('.service-list').slideToggle("slow");
+});
 
 // var service_sidebar_accrodion = $('.service-list ul')
 

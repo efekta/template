@@ -384,12 +384,7 @@ footer.site-footer .main-footer {
 //     cursor: pointer;
 //     display: block;
 // }
-// .service-list li {
-//     display: none;
-// }
-// #service-list_show {
-//     display: block;
-// }
+
 
 }
 @media (max-width: 1200px) {
@@ -442,10 +437,20 @@ footer.site-footer .main-footer {
     margin-left: 20px;
 }
 }
+@media (max-width: 992px) {
+.service-list{
+    display: none;
+}
+#service-list_show {
+    display: block;
+    background: #186496;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 25px;
+}
 
-
-
-
+}
 
 
 
