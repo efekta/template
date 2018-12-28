@@ -61,6 +61,21 @@
     .sec-pad {
         padding: 50px 0;
     }
+    .modal-dialog .form-inner {
+        width: 100%;
+    }
+    .modal .form-body {
+        justify-content: center;
+    }
+    .modal label {
+        width: 100%;
+    }
+    .modal .security {
+        width: 100%;
+    }
+    .input-box-personal {
+        width: 100%;
+    }
 }
 
 @media (max-width: 991px) {

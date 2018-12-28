@@ -788,7 +788,6 @@
             </header>
             <div class="tab_content">
                 <div class="tab_items">
-
                     <form action="#" method="POST" class="consulForm1" id="form_on">
                         <div class="tab_item modal-body">
                             <div class="form-body">
@@ -806,22 +805,19 @@
                                         <span class="error">Это поле обязательно для заполнения.</span>
                                     </label>
                                 </div>
+                                <div class="security">
+                                    <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
+                                </div>
+                                <div class="input-box-personal">
+                                    <input type="checkbox" id="checked_iab" name="personal">
+                                    <label for="checked_iab">Я даю согласие на обработку моих персональных данных</label>
+                                </div>
                             </div>
-                            
-                            <div class="security">
-                                <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
-                            </div>
-                            <div class="input-box-personal">
-                                <input type="checkbox" id="checked_iab" name="personal">
-                                <label for="checked_iab">Я даю согласие на обработку моих персональных данных</label>
-                            </div>
+                            <footer class="modal-footer">
+                                <button id="on" class="btn btn-modal-footer" type="submit">Заказать</button>
+                            </footer>
                         </div>
-                        <footer class="modal-footer">
-                            <button id="on" class="btn btn-modal-footer" type="submit">Заказать</button>
-                        </footer>
                     </form>
-
-
                     <form action="#" method="POST" class="consulForm2" id="form_tw">
                         <div class="tab_item modal-body">
                             <div class="form-body">
@@ -839,24 +835,24 @@
                                         <span class="error">Это поле обязательно для заполнения.</span>
                                     </label>
                                 </div>
-                            </div>
-                             <div class="form-inner modal-form-inner modal-form-inner-a">
-                                <textarea name="message" id="modal_user_message" rows="10" placeholder="Ваш вопрос"></textarea>
-                            </div>
-                            
-                            <div class="security">
-                                <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
-                            </div>
-                            <div class="input-box-personal">
-                                <input type="checkbox" id="checked_iac" name="personal">
-                                <label for="checked_iac">Я даю согласие на обработку моих персональных данных</label>
-                            </div>
-                        </div>
-                        <footer class="modal-footer">
-                            <button id="tw" class="btn btn-modal-footer" type="submit">Заказать</button>
-                        </footer>
-                    </form>
 
+                                 <div class="form-inner modal-form-inner modal-form-inner-a">
+                                    <textarea name="message" id="modal_user_message" rows="10" placeholder="Ваш вопрос"></textarea>
+                                </div>
+                            
+                                <div class="security">
+                                    <p>Ваши контактные данные в безопасности и не будут переданы третьим лицам</p>
+                                </div>
+                                <div class="input-box-personal">
+                                    <input type="checkbox" id="checked_iac" name="personal">
+                                    <label for="checked_iac">Я даю согласие на обработку моих персональных данных</label>
+                                </div>
+                            </div>
+                            <footer class="modal-footer">
+                                <button id="tw" class="btn btn-modal-footer" type="submit">Заказать</button>
+                            </footer>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

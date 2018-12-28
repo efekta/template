@@ -26,7 +26,7 @@
 	background: $blue;
 }
 .modal-body {
-	padding: 57px 55px 37px 55px;
+	padding: 0;
 	border-left: 2px solid $blue;
 	border-right: 2px solid $blue;
 }
@@ -88,7 +88,8 @@
 }
 .modal .form-body  {
 	display: flex;
-	// flex-wrap: wrap;
+	padding: 57px 55px 37px 55px;
+	flex-wrap: wrap;
 }
 .modal .security {
 	margin-bottom: 20px;
@@ -154,7 +155,7 @@
 
 .modal-dialog .form-inner {
 	padding: 0;
-	width: auto;
+	width: 50%;
 }
 .modal .security {
 	text-align: left;
