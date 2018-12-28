@@ -116,6 +116,11 @@ $('.FormAjax').submit(function(){
       return false;
     });
 
+//  $('#service-list_show').on('click', function() {
+//     // e.preventDefault();
+//     $('.service-list li').show();
+// });
+
 // var service_sidebar_accrodion = $('.service-list ul')
 
 //   $(window).resize(function(){
@@ -124,9 +129,9 @@ $('.FormAjax').submit(function(){
 //     else{$(".service-sidebar").removeClass('service-sidebar_hide');}
 //   });
 
-// $('.accordion-item:not(:first) .content').hide();
+// $('.service-list:not(:first) .content').hide();
 
-// $(".accordion-item").click(function() {
+// $(".service-list li").click(function() {
 //   var self = $(this);
 //     $('.content').hide();
 //     $('.content', self).show();
@@ -134,7 +139,13 @@ $('.FormAjax').submit(function(){
 //     $('.hidden', self).show();
 //     $('.show', self).hide();
 // });
-
+// $(document).mouseup(function (e){ // отслеживаем событие клика по веб-документу
+//     var block = $('.service-list li:first-child'); // определяем элемент, к которому будем применять условия (можем указывать ID, класс либо любой другой идентификатор элемента)
+//     if (!block.is(e.target) // проверка условия если клик был не по нашему блоку
+//         && block.has(e.target).length === 0) { // проверка условия если клик не по его дочерним элементам
+//         block.find('ul').hide(); // если условия выполняются - скрываем наш элемент
+//     }
+// });
 
 
 
